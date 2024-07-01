@@ -23,6 +23,7 @@ import Tigera from './logos/Tigera.png';
 import PorscheInformatik from './logos/PorscheInformatik.png';
 import Veeam from './logos/Veeam.png';
 import Suse from './logos/Suse.png';
+import Nordcloud from './logos/Nordcloud.png';
 
 const sponsors = [
   {
@@ -45,7 +46,8 @@ const sponsors = [
       { url: 'https://www.nts.eu', logo: NTS },
       { url: 'https://www.tigera.io', logo: Tigera },
       { url: 'https://www.veeam.com', logo: Veeam },
-      { url: 'https://www.suse.com', logo: Suse }
+      { url: 'https://www.suse.com', logo: Suse },
+      { url: 'https://nordcloud.com', logo: Nordcloud }
     ],
   },
   {
