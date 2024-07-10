@@ -24,6 +24,7 @@ import PorscheInformatik from './logos/PorscheInformatik.png';
 import Veeam from './logos/Veeam.png';
 import Suse from './logos/Suse.png';
 import Nordcloud from './logos/Nordcloud.png';
+import Posedio from './logos/Posedio.svg';
 
 const sponsors = [
   {
@@ -53,7 +54,8 @@ const sponsors = [
   {
     title: 'Community',
     sponsors: [
-      { url: 'https://www.porscheinformatik.com', logo: PorscheInformatik }
+      { url: 'https://www.porscheinformatik.com', logo: PorscheInformatik },
+      { url: 'https://www.posedio.com', logo: Posedio }
     ],
   },
   {
