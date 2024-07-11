@@ -4,6 +4,7 @@ const MENUS = {
   header: [
     { text: 'Tickets', ...LINKS.tickets },
     { text: 'Schedule', ...LINKS.schedule },
+    { text: 'Venue & Accommodation', ...LINKS.venue },
     { text: 'Sponsors', ...LINKS.sponsors },
     { text: 'Volunteer', ...LINKS.volunteer },
   ],
@@ -16,6 +17,7 @@ const MENUS = {
     { text: 'Call for Proposals', ...LINKS.cfp },
     { text: 'Tickets', ...LINKS.tickets },
     { text: 'Schedule', ...LINKS.schedule },
+    { text: 'Venue & Accommodation', ...LINKS.venue },
     { text: 'Sponsors', ...LINKS.sponsors },
     { text: 'Volunteer', ...LINKS.volunteer },
   ],
