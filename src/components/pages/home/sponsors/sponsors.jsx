@@ -77,32 +77,10 @@ const Sponsors = () => (
     <h1 id="sponsors">Sponsors</h1>
 
     <p>
-      Join us in making KCD Vienna a memorable and impactful event for all attendees. To explore
-      sponsorship opportunities, please don't hesitate to get in touch with us today. Your support
-      will help us create an unforgettable experience for the community while enhancing your brand's
-      visibility and recognition. Contact us at{' '}
-      <a
-        href="mailto:organizers@kcdaustria.at"
-        className="text-purple"
-        target="_blank"
-        rel="noreferrer"
-      >
-        {' '}
-        organizers@kcdaustria.at{' '}
-      </a>
+      We couldn't do KCD Austria without amazing sponsors! Big thanks to our Gold, Silver and Community sponsors, and Media Partners.
+      Their support means even more great talks, workshops, and networking for our community.
     </p>
-    <div className="mt-6 mb-12 flex flex-row justify-center gap-4 sm:flex-col">
-      <a
-        href="https://drive.google.com/file/d/15cC_G7hZrMVhrIwiukkfxPvMoRvBPKKZ/view?usp=sharing"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <Button>Information Slides</Button>
-      </a>
-      <a href="mailto:organizers@kcdaustria.at" target="_blank" rel="noreferrer" aria-label="Get in touch">
-        <Button>Get in touch</Button>
-      </a>
-    </div>
+
 
     {sponsors.map(({ title, sponsors }, index) => {
       // Randomly sort the sponsors array
