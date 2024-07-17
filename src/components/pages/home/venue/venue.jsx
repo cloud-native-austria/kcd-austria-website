@@ -12,7 +12,7 @@ const hotels = [
     name: 'PhilsPlace',
     link: 'https://maps.app.goo.gl/cUm3q1aNao7tLugH6',
     discount: '10%',
-    description: Send an e-mail to hello@phils.place and include the travel dates and the number of people, together with the promo code "KCDXPHILS".',
+    description: 'Send an e-mail to hello@phils.place and include the travel dates and the number of people, together with the promo code "KCDXPHILS".',
   },
   {
     name: 'Austria Trend Hotel Bosei',
