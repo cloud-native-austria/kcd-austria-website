@@ -17,8 +17,8 @@ const hotels = [
   {
     name: 'Austria Trend Hotel Bosei',
     link: 'https://maps.app.goo.gl/i6P8KLejR5ivLhcC9',
-    discount: '€10',
-    description: 'Fill out form...',
+    discount: '15%',
+    description: 'Use the discount code <b>KCD-Austria2024</b> on the <a href="https://www.austria-trend.at/de/hotels/bosei" target="_blank" className="p-0 m-0 my-2 block text-xl text-center">hotel reservation page</a>.',
   },
 ];
 
