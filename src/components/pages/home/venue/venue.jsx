@@ -5,20 +5,20 @@ const hotels = [
   {
     name: 'Holiday Inn Vienna South',
     link: 'https://maps.app.goo.gl/YDNq1o6Pnkxvnnso7',
-    discount: '10%',
-    description: 'Use the discount code XYZ...',
+    discount: '10%/fixed rate',
+    description: 'Send the following form filled with your data and signed to reservation@hi-wien.at. This promo "KCD Austria" is bookable until 9th September.',
   },
   {
     name: 'PhilsPlace',
     link: 'https://maps.app.goo.gl/cUm3q1aNao7tLugH6',
-    discount: '15%',
-    description: 'You\'ll get the discount code when purchasing your ticket...',
+    discount: '10%',
+    description: Send an e-mail to hello@phils.place and include the travel dates and the number of people, together with the promo code "KCDXPHILS".',
   },
   {
     name: 'Austria Trend Hotel Bosei',
     link: 'https://maps.app.goo.gl/i6P8KLejR5ivLhcC9',
     discount: '15%',
-    description: 'Use the discount code '<b>'KCD-Austria2024'</b>' on the '<a href="https://www.austria-trend.at/de/hotels/bosei" target="_blank" className="p-0 m-0 my-2 block text-xl text-center">'hotel reservation page'</a>'.',
+    description: 'Use the discount code "KCD-Austria2024" on the hotel reservation page to get 15% off the regular price.',
   },
 ];
 
