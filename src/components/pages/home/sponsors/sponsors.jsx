@@ -25,6 +25,7 @@ import Veeam from './logos/Veeam.png';
 import Suse from './logos/Suse.png';
 import Nordcloud from './logos/Nordcloud.png';
 import Posedio from './logos/Posedio.svg';
+import Cloudbees from './logos/Cloudbees.png';
 
 const sponsors = [
   {
@@ -48,7 +49,8 @@ const sponsors = [
       { url: 'https://www.tigera.io', logo: Tigera },
       { url: 'https://www.veeam.com', logo: Veeam },
       { url: 'https://www.suse.com', logo: Suse },
-      { url: 'https://nordcloud.com', logo: Nordcloud }
+      { url: 'https://nordcloud.com', logo: Nordcloud },
+      { url: 'https://www.cloudbees.com', logo: Cloudbees }
     ],
   },
   {
