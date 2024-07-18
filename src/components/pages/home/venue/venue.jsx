@@ -6,19 +6,19 @@ const hotels = [
     name: 'Holiday Inn Vienna South',
     link: 'https://maps.app.goo.gl/YDNq1o6Pnkxvnnso7',
     discount: '10%/fixed rate',
-    description: 'Send the following form filled with your data and signed to reservation@hi-wien.at. This promo "KCD Austria" is bookable until 9th September.',
+    description: 'Send <a href="/files/HolidayInn-Abrufkontingent-KCD.pdf" target="_blank">this form</a> filled with your data and signed to <a href="mailto:reservation@hi-wien.at">reservation@hi-wien.at</a>. This promo <strong>KCD Austria</strong> is bookable until 9th September.',
   },
   {
     name: 'PhilsPlace',
     link: 'https://maps.app.goo.gl/cUm3q1aNao7tLugH6',
     discount: '10%',
-    description: 'Send an e-mail to hello@phils.place and include the travel dates and the number of people, together with the promo code "KCDXPHILS".',
+    description: 'Send an e-mail to <a href="mailto:hello@phils.place">hello@phils.place</a> and include the travel dates and the number of people, together with the promo code <strong>KCDXPHILS</strong> to get 10% off from the October rate.',
   },
   {
     name: 'Austria Trend Hotel Bosei',
     link: 'https://maps.app.goo.gl/i6P8KLejR5ivLhcC9',
     discount: '15%',
-    description: 'Use the discount code "KCD-Austria2024" on the hotel reservation page to get 15% off the regular price.',
+    description: 'Use the discount code <strong>KCD-Austria2024</strong> on the <a href="https://www.austria-trend.at/de/hotels/bosei" target="_blank">hotel reservation page</a> to get 15% off the regular price.',
   },
 ];
 
@@ -41,7 +41,7 @@ const Venue = () => (
       </div>
       <p className="w-1/2 sm:w-full sm:mt-4">
         KCD Austria will be held at <a href="https://maps.app.goo.gl/Q22METdvy3f1GFfx8" target="_blank">Cineplexx
-        Wienerberg</a>. You'll enjoy two cinema-style stages with comfy seats, great sound, and clear visuals.
+          Wienerberg</a>. You'll enjoy two cinema-style stages with comfy seats, great sound, and clear visuals.
         <br /><br />
         Grab a coffee or a bite to eat throughout the day and check out our sponsors for cool swag. There's plenty of
         space to meet new people and catch up with friends.
@@ -66,9 +66,7 @@ const Venue = () => (
           <strong className="text-sm text-start bg-pink text-white py-1 px-2 rounded-full inline-block self-start">{hotel.discount}</strong>
           <div><a href={hotel.link} target="_blank" className="p-0 m-0 my-2 block text-xl text-center">{hotel.name}</a>
           </div>
-          <p className="text-center">
-            {hotel.description}
-          </p>
+          <p className="text-center" dangerouslySetInnerHTML={{ __html: hotel.description }}></p>
         </div>
       ))}
     </div>
