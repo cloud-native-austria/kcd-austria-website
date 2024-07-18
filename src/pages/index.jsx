@@ -8,6 +8,7 @@ import SEO from 'components/shared/seo';
 import Sponsors from '../components/pages/home/sponsors';
 import Schedule from '../components/pages/home/schedule';
 import Tickets from '../components/pages/home/tickets';
+import Venue from '../components/pages/home/venue';
 
 const HomePage = () => (
   <Layout homepage>
@@ -15,6 +16,7 @@ const HomePage = () => (
     <Info />
     <Tickets />
     <Schedule />
+    <Venue />
     <Sponsors />
   </Layout>
 );

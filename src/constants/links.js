@@ -22,6 +22,11 @@ export default {
     id: `/#${getAnchor('schedule')}`,
     homeTo: '/',
   },
+  venue: {
+    to: `/#${getAnchor('Venue & Accommodation')}`,
+    id: `/#${getAnchor('Venue & Accommodation')}`,
+    homeTo: '/',
+  },
   sponsors: {
     to: `/#${getAnchor('Sponsors')}`,
     id: `/#${getAnchor('Sponsors')}`,
