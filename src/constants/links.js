@@ -7,11 +7,6 @@ export default {
   home: {
     to: '/',
   },
-  cfp: {
-    to: `/#${getAnchor('Call for Proposals')}`,
-    id: `/#${getAnchor('Call for Proposals')}`,
-    homeTo: '/',
-  },
   tickets: {
     to: `/#${getAnchor('Tickets')}`,
     id: `/#${getAnchor('Tickets')}`,
