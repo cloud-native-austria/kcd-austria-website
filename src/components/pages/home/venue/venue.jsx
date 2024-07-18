@@ -59,10 +59,10 @@ const Venue = () => (
       rates at selected hotels for KCD Austria attendees:
     </p>
 
-    <div className="flex flex-row flex-wrap justify-center md:flex-col gap-4 mt-12">
+    <div className="flex flex-row flex-wrap justify-around md:flex-col mt-4 gap-y-2">
       {hotels.map((hotel) => (
         <div
-          className="w-[400px] md:w-full bg-gray-12 rounded-md p-4 flex-col inline-block justify-center">
+          className="w-[32%] md:w-full bg-gray-12 rounded-md p-4 flex-col inline-block justify-center">
           <strong className="text-sm text-start bg-pink text-white py-1 px-2 rounded-full inline-block self-start">{hotel.discount}</strong>
           <div><a href={hotel.link} target="_blank" className="p-0 m-0 my-2 block text-xl text-center">{hotel.name}</a>
           </div>
