@@ -12,7 +12,7 @@ const Schedule = () => (
       We're excited to craft a conference program packed with insightful talks and workshops.
     </p>
     <div className="flex flex-row flex-wrap justify-around md:flex-col mt-4 gap-y-2">
-      <div className="w-[32%] md:w-full bg-gray-12 rounded-md p-4 flex-col inline-block justify-center content-center">
+      <div className="w-[32%] md:w-full bg-gray-12 rounded-md p-4 flex-col inline-block justify-center content-start">
         <strong className="text-sm bg-orange py-1 px-2 rounded-full">Tuesday, October 8</strong>
         <h1 className="p-0 m-0 mt-4 mb-2 text-2xl">Workshops</h1>
         <p className="text-center">
@@ -20,7 +20,7 @@ const Schedule = () => (
           have fun!
         </p>
       </div>
-      <div className="w-[32%] md:w-full bg-gray-12 rounded-md p-4 flex-col inline-block justify-center content-center">
+      <div className="w-[32%] md:w-full bg-gray-12 rounded-md p-4 flex-col inline-block justify-center content-start">
         <strong className="text-sm bg-pink text-white py-1 px-2 rounded-full">
           Wednesday, October 9
         </strong>
@@ -30,7 +30,7 @@ const Schedule = () => (
           to be wowed!
         </p>
       </div>
-      <div className="w-[32%] md:w-full bg-gray-12 rounded-md p-4 flex-col inline-block justify-center content-center">
+      <div className="w-[32%] md:w-full bg-gray-12 rounded-md p-4 flex-col inline-block justify-center content-start">
         <strong className="text-sm bg-purple text-white py-1 px-2 rounded-full">
           Thursday, October 10
         </strong>
