@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '../../../shared/button';
-import SpeakerProfileImage from './SpeakerProfileImage';
-import loadWorkshopSpeakers from './loadWorkshopSpeakers';
+import SpeakerProfileImage from '../speakers/SpeakerProfileImage';
+import loadWorkshopSpeakers from '../speakers/loadWorkshopSpeakers';
 
 
 const Tickets = () => {
