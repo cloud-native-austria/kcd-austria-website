@@ -11,7 +11,11 @@ const SessionModal = ({ isOpen, onClose, session }) => {
 
     return (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center" onClick={handleOverlayClick}>
-            <div className="bg-white p-5 rounded-md w-1/2" onClick={(e) => e.stopPropagation()}>
+            <div
+                className="bg-white p-5 rounded-md w-full max-w-lg max-h-full overflow-y-auto"
+                onClick={(e) => e.stopPropagation()}
+                style={{ margin: '10px' }}
+            >
                 <div className='text-right'>
                     <button onClick={onClose} className="top-2 right-2">Close</button>
                 </div>
