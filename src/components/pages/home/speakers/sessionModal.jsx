@@ -15,9 +15,9 @@ const SessionModal = ({ isOpen, onClose, session }) => {
                 <div className='text-right'>
                     <button onClick={onClose} className="top-2 right-2">Close</button>
                 </div>
-                <div className='text-center'>
+                <div className='text-left'>
                     <h2 className="text-2xl mb-4">{session.title}</h2>
-                    <p>{session.description}</p>
+                    <div style={{ whiteSpace: 'pre-wrap' }}>{session.description}</div>
                 </div>
             </div>
         </div>

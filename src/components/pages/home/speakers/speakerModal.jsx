@@ -21,7 +21,7 @@ const SpeakerModal = ({ isOpen, onClose, speaker }) => {
                     </div>
                     <div className='w-3/4 pl-4'>
                         <h2 className="text-2xl mb-4">{speaker.fullName}</h2>
-                        <p>{speaker.bio}</p>
+                        <div style={{ whiteSpace: 'pre-wrap' }}>{speaker.bio}</div>
                     </div>
                 </div>
             </div>
