@@ -26,7 +26,7 @@ const Tickets = () => {
       </p>
       <div className="mt-3 grid grid-cols-2 md:grid-cols-1 gap-2">
         <div className="flex items-center m-4 ml-8 p-2 relative bg-white drop-shadow rounded">
-          <SpeakerProfileImage speakers={workshopSpeakers} firstName={"Max"} className="absolute -left-8 max-h-16 rounded-full" />
+          <SpeakerProfileImage speakers={workshopSpeakers} speakerId={"bed265e5-76db-4a71-9c0d-c91371e85a87"} className="absolute -left-8 max-h-16 rounded-full" />
           <div className="pl-10 flex flex-col gap-1 items-start text-start">
             <h4 className="text-purple font-bold text-balance">Build your own Internal Developer Platform with CNOE</h4>
             <hr></hr>
@@ -36,8 +36,8 @@ const Tickets = () => {
         </div>
         <div className="flex items-center m-4 ml-8 p-2 relative bg-white drop-shadow rounded">
           <div className="absolute -left-8">
-            <SpeakerProfileImage speakers={workshopSpeakers} firstName={"Miguel"} className="max-h-16 rounded-t-full" />
-            <SpeakerProfileImage speakers={workshopSpeakers} firstName={"Vicente J."} className="max-h-16 rounded-b-full" />
+            <SpeakerProfileImage speakers={workshopSpeakers} speakerId={"53714b74-4585-446b-99f7-83406937bac8"} className="max-h-16 rounded-t-full" />
+            <SpeakerProfileImage speakers={workshopSpeakers} speakerId={"cb938518-75cf-4ead-9262-f24323657e4c"} className="max-h-16 rounded-b-full" />
           </div>
           <div className="pl-10 flex flex-col gap-1 items-start text-start">
             <h4 className="text-purple font-bold text-balance">Detecting unexpected behavior and intrusions with Falco + Atomic Red Team</h4>
@@ -48,7 +48,7 @@ const Tickets = () => {
           </div>
         </div>
         <div className="flex items-center m-4 ml-8 p-2 relative bg-white drop-shadow rounded">
-          <SpeakerProfileImage speakers={workshopSpeakers} firstName={"Nic"} className="absolute -left-8 max-h-16 rounded-full" />
+          <SpeakerProfileImage speakers={workshopSpeakers} speakerId={"1829d862-9dc7-49f7-b290-0f69bf61f7d0"} className="absolute -left-8 max-h-16 rounded-full" />
           <div className="pl-10 flex flex-col gap-1 items-start text-start">
             <h4 className="text-purple font-bold text-balance">Deep Dive Into Kubernetes IAM and Network Security: How To Automate at Scale With IBAC and GitOps</h4>
             <strong>Nic Vermande</strong>
@@ -56,7 +56,7 @@ const Tickets = () => {
           </div>
         </div>
         <div className="flex items-center m-4 ml-8 p-2 relative bg-white drop-shadow rounded">
-          <SpeakerProfileImage speakers={workshopSpeakers} firstName={"Ant(on)"} className="absolute -left-8 max-h-16 rounded-full" />
+          <SpeakerProfileImage speakers={workshopSpeakers} speakerId={"a2665c2b-13c9-4337-9c78-db85bca70e60"} className="absolute -left-8 max-h-16 rounded-full" />
           <div className="pl-10 flex flex-col gap-1 items-start text-start">
             <h4 className="text-purple font-bold text-balance">Kubernetes Performance Tuning</h4>
             <strong>Ant(on) Weiss</strong>

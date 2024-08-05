@@ -1,7 +1,7 @@
 import React from 'react';
 
-const SpeakerProfileImage = ({ speakers, speakerId, firstName, className }) => {
-    const speaker = speakers.find(speaker => speaker.id === speakerId || speaker.firstName === firstName);
+const SpeakerProfileImage = ({ speakers, speakerId, className }) => {
+    const speaker = speakers.find(speaker => speaker.id === speakerId);
 
     if (!speaker) return ""
 
