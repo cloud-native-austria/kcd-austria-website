@@ -52,7 +52,8 @@ const Tickets = () => {
       </Button>
       <h3>Workshop Pass Addon</h3>
       <p>
-        Arrive one day early, <strong>on October 8th</strong>, and attend <strong>two</strong> workshops in addition to the conference.
+        Arrive one day early, <strong>on October 8th</strong>, and attend <strong>two</strong> workshops in addition to the conference.<br />
+        Pick one morning and one afternoon workshop from the following options. The total number of workshop tickets is limited to 40.
       </p>
       <div className="mt-3 grid grid-cols-2 md:grid-cols-1 gap-2">
         <div className="flex items-center m-4 ml-4 p-2 relative bg-gray-12 rounded-md">
