@@ -6,7 +6,6 @@ const MENUS = {
     { text: 'Schedule', ...LINKS.schedule },
     { text: 'Venue & Accommodation', ...LINKS.venue },
     { text: 'Sponsors', ...LINKS.sponsors },
-    { text: 'Volunteer', ...LINKS.volunteer },
   ],
   footer: [
     { text: 'Code of Conduct', ...LINKS.conduct },
@@ -18,7 +17,6 @@ const MENUS = {
     { text: 'Schedule', ...LINKS.schedule },
     { text: 'Venue & Accommodation', ...LINKS.venue },
     { text: 'Sponsors', ...LINKS.sponsors },
-    { text: 'Volunteer', ...LINKS.volunteer },
   ],
 };
 
