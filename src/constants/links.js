@@ -27,9 +27,6 @@ export default {
     id: `/#${getAnchor('Sponsors')}`,
     homeTo: '/',
   },
-  volunteer: {
-    to: `/volunteer`,
-  },
 
   // Footer
   team: {
