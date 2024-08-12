@@ -20,6 +20,12 @@ const hotels = [
     discount: '15%',
     description: 'Use the discount code <strong>KCD-Austria2024</strong> on the <a href="https://www.austria-trend.at/de/hotels/bosei" target="_blank">hotel reservation page</a> to get 15% off the regular price.',
   },
+  {
+    name: 'Plaza Premium Wien',
+    link: 'https://maps.app.goo.gl/dKyjsWhDFVetzT1x6',
+    discount: '12%',
+    description: 'Use the discount code <strong>PLAZAESCAPE</strong> on the <a href="https://plazahotels.de/hotel-wienerberg/" target="_blank">hotel reservation page</a> to get 12% off the regular price.',
+  },
 ];
 
 const Venue = () => (
