@@ -3,8 +3,10 @@ import React from 'react';
 
 const Person = ({ name, picture, tagLine }) => (
   <div className="w-[200px] text-center">
-    <img src={picture} alt={name} className="rounded-full w-full h-[200px] mb-4 object-cover" />
-    <strong>{name}</strong>
+    <span className="drop-shadow">
+      <img src={picture} alt={name} className="heptagon bg-white w-full h-[200px] mb-4 object-cover" />
+    </span>
+      <strong>{name}</strong>
     <p className="text-sm">{tagLine}</p>
   </div>
 );
