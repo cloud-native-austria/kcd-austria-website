@@ -30,6 +30,7 @@
     @apply font-bold;
     @apply hover:text-pink;
     @apply hover:scale-105;
+    transition: all 0.1s ease-in-out;
   }
 
   .text-gradient {
