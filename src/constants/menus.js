@@ -19,6 +19,7 @@ const MENUS = {
     { text: 'Schedule', ...LINKS.schedule },
     { text: 'Venue & Accommodation', ...LINKS.venue },
     { text: 'Sponsors', ...LINKS.sponsors },
+    { text: 'Speakers', ...LINKS.speakers },
     { text: 'Volunteer', ...LINKS.volunteer },
   ],
 };
