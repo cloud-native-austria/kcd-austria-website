@@ -27,6 +27,9 @@ export default {
     id: `/#${getAnchor('Sponsors')}`,
     homeTo: '/',
   },
+  speakers: {
+    to: '/speakers',
+  },
   volunteer: {
     to: `/volunteer`,
   },

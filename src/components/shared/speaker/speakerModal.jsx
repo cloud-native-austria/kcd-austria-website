@@ -1,13 +1,13 @@
 import React from 'react';
 
 const SpeakerModal = ({ isOpen, onClose, speaker }) => {
-    if (!isOpen) return null;
+  if (!isOpen) return null;
 
-    const handleOverlayClick = (e) => {
-        if (e.target === e.currentTarget) {
-            onClose();
-        }
-    };
+  const handleOverlayClick = (e) => {
+    if (e.target === e.currentTarget) {
+      onClose();
+    }
+  };
 
     return (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center" onClick={handleOverlayClick}>
@@ -18,7 +18,9 @@ const SpeakerModal = ({ isOpen, onClose, speaker }) => {
             >
                 <button onClick={onClose} className="absolute top-3 right-3">Ｘ</button>
                 <div className='flex gap-3 items-center pb-3'>
-                    <img src={speaker.profilePicture} alt={speaker.fullName} className="max-h-20 rounded-full" />
+                    <span className="drop-shadow">
+                      <img src={speaker.profilePicture} alt={speaker.fullName} className="max-h-20 bg-white heptagon" />
+                    </span>
                     <h2 className="text-2xl">{speaker.fullName}</h2>
                 </div>
                 <p style={{ whiteSpace: 'pre-wrap' }} className="text-start text-balance">{speaker.bio}</p>
