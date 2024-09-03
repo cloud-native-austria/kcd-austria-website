@@ -1,16 +1,14 @@
+import { scheduleUrl } from 'constants/sessionize-app';
+import Button from '../../../shared/button';
 import React from 'react';
 
 const Schedule = () => (
-  <section className="safe-paddings container-md">
+  <section className="safe-paddings container-md text-center">
     <h1 id="schedule">Schedule</h1>
-    <p>
-      Our call for proposals has <strong>now closed</strong>. Thank you to everybody who submitted a
-      session for your enthusiasm and willingness to share your knowledge. We are now evaluating all
-      submissions and will <strong>reach out to all applicants until end of July</strong>.
-      <br />
-      <br />
-      We're excited to craft a conference program packed with insightful talks and workshops.
+    <p className='text-balance'>
+      See the full schedule and mark talks you're interested in so you won't miss a session.
     </p>
+    <Button to={scheduleUrl} className='my-6'>Full schedule</Button>
     <div className="flex flex-row flex-wrap justify-around md:flex-col mt-4 gap-y-2">
       <div className="w-[32%] md:w-full bg-gray-12 rounded-md p-4 flex-col inline-block justify-center content-start">
         <strong className="text-sm bg-orange py-1 px-2 rounded-full">Tuesday, October 8</strong>
