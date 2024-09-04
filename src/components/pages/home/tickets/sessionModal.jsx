@@ -12,7 +12,7 @@ const SessionModal = ({ isOpen, onClose, session }) => {
 
   return (
     <div
-      className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center"
+      className="fixed z-10 inset-0 bg-black bg-opacity-50 flex items-center justify-center"
       onClick={handleOverlayClick}
     >
       <div

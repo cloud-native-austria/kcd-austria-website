@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const loadAllSpeakers = () => {
+export const loadAllSpeakers = () => {
     const [speakers, setSpeakers] = useState([]);
 
     useEffect(() => {
@@ -17,7 +17,9 @@ const loadAllSpeakers = () => {
         fetchSpeakers();
     }, []);
 
-    return { speakers };
+    return speakers;
 };
 
-export default loadAllSpeakers;
+export const loadKeynoteSpeakers = () => {
+    return loadAllSpeakers().filter(s => s.isTopSpeaker);
+}

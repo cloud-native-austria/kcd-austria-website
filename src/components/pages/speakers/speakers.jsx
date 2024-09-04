@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 
-import loadAllSpeakers from '../../shared/data/loadAllSpeakers';
+import { loadAllSpeakers, loadKeynoteSpeakers } from '../../shared/data/loadAllSpeakers';
 import Person from '../../shared/person';
 import SpeakerModal from '../../shared/speaker/speakerModal';
 
-const Speakers = () => {
+const Speakers = ({ keynote }) => {
   const [selectedSpeaker, setSelectedSpeaker] = useState(null);
 
-  const { speakers } = loadAllSpeakers();
+  const speakers = keynote ? loadKeynoteSpeakers() : loadAllSpeakers();
 
   const handleSpeakerClick = (speakerId) => {
     const speaker = speakers.find(s => s.id === speakerId);
@@ -23,8 +23,8 @@ const Speakers = () => {
   }
 
   return (
-    <section className="safe-paddings container-md">
-      <h1 id="speakers">Speakers</h1>
+    <section className="safe-paddings container-lg">
+      <h1 id="speakers">{keynote && 'Keynote '}Speakers</h1>
       <div className="flex flex-row flex-wrap gap-10 justify-center pt-4">
         {speakers.map(({ profilePicture, fullName, tagLine, id }) => (
           <a onClick={() => handleSpeakerClick(id)}>
