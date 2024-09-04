@@ -6,6 +6,7 @@ import Layout from 'components/shared/layout';
 import SEO from 'components/shared/seo';
 
 import Sponsors from '../components/pages/home/sponsors';
+import Speakers from 'components/pages/speakers/speakers';
 import Schedule from '../components/pages/home/schedule';
 import Tickets from '../components/pages/home/tickets';
 import Venue from '../components/pages/home/venue';
