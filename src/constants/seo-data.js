@@ -8,10 +8,9 @@ export default {
     description: 'Experience the power of community at the KCD Austria!',
   },
 
-  volunteer: {
-    title: 'Volunteer — KCD Austria',
-    description: 'Volunteer at the KCD Austria and help make the event a success!',
-  },
+  static: ({ title }) => ({
+    title: `${title} — KCD Austria`,
+  }),
 
   speakers: {
     title: 'Speakers — KCD Austria',

@@ -30,9 +30,6 @@ export default {
   speakers: {
     to: '/speakers',
   },
-  volunteer: {
-    to: `/volunteer`,
-  },
 
   // Footer
   team: {
