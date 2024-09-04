@@ -26,6 +26,7 @@ import Suse from './logos/Suse.png';
 import Nordcloud from './logos/Nordcloud.png';
 import Posedio from './logos/Posedio.svg';
 import Cloudbees from './logos/Cloudbees.png';
+import Post from './logos/Post.png';
 
 const sponsors = [
   {
@@ -50,7 +51,8 @@ const sponsors = [
       { url: 'https://www.veeam.com', logo: Veeam },
       { url: 'https://www.suse.com', logo: Suse },
       { url: 'https://nordcloud.com', logo: Nordcloud },
-      { url: 'https://www.cloudbees.com', logo: Cloudbees }
+      { url: 'https://www.cloudbees.com', logo: Cloudbees },
+      { url: 'https://www.post.at/', logo: Post }
     ],
   },
   {
