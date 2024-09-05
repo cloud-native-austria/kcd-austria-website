@@ -27,6 +27,12 @@ export default {
     id: `/#${getAnchor('Sponsors')}`,
     homeTo: '/',
   },
+  
+  keynoteSpeakers: {
+    to: `/#${getAnchor('speakers')}`,
+    id: `/#${getAnchor('speakers')}`, 
+  },
+
   speakers: {
     to: '/speakers',
   },
