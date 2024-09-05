@@ -1,8 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
-import { loadAllSpeakers, loadKeynoteSpeakers } from '../../shared/data/loadAllSpeakers';
-import Person from '../../shared/person';
-import SpeakerModal from '../../shared/speaker/speakerModal';
+import {
+  loadAllSpeakers,
+  loadKeynoteSpeakers,
+} from "../../shared/data/loadAllSpeakers";
+import Person from "../../shared/person";
+import SpeakerModal from "../../shared/speaker/speakerModal";
+import Button from "components/shared/button/button";
+import links from "../../../constants/links";
+import link from "components/shared/link";
 
 const Speakers = ({ keynote }) => {
   const [selectedSpeaker, setSelectedSpeaker] = useState(null);
@@ -10,7 +16,7 @@ const Speakers = ({ keynote }) => {
   const speakers = keynote ? loadKeynoteSpeakers() : loadAllSpeakers();
 
   const handleSpeakerClick = (speakerId) => {
-    const speaker = speakers.find(s => s.id === speakerId);
+    const speaker = speakers.find((s) => s.id === speakerId);
     setSelectedSpeaker(speaker);
   };
 
@@ -23,16 +29,30 @@ const Speakers = ({ keynote }) => {
   }
 
   return (
-    <section className="safe-paddings container-lg">
-      <h1 id="speakers">{keynote && 'Keynote '}Speakers</h1>
+    <section className="safe-paddings container-lg text-center">
+      <h1 id="speakers">{keynote && "Keynote "}Speakers</h1>
       <div className="flex flex-row flex-wrap gap-10 justify-center pt-4">
         {speakers.map(({ profilePicture, fullName, tagLine, id }) => (
           <a onClick={() => handleSpeakerClick(id)}>
-            <Person name={fullName} tagLine={tagLine} picture={profilePicture} key={id} />
+            <Person
+              name={fullName}
+              tagLine={tagLine}
+              picture={profilePicture}
+              key={id}
+            />
           </a>
         ))}
       </div>
-      <SpeakerModal isOpen={!!selectedSpeaker} speaker={selectedSpeaker} onClose={closeSpeakerModal} />
+      {keynote && (
+        <Button className="my-6" to={links.speakers.to}>
+          See all our speakers
+        </Button>
+      )}
+      <SpeakerModal
+        isOpen={!!selectedSpeaker}
+        speaker={selectedSpeaker}
+        onClose={closeSpeakerModal}
+      />
     </section>
   );
 };
