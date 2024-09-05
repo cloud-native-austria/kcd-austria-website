@@ -2,8 +2,9 @@ import LINKS from 'constants/links.js';
 
 const MENUS = {
   header: [
-    { text: 'Tickets', ...LINKS.tickets },
+    { text: 'Speakers', ...LINKS.keynoteSpeakers },
     { text: 'Schedule', ...LINKS.schedule },
+    { text: 'Tickets', ...LINKS.tickets },
     { text: 'Venue & Accommodation', ...LINKS.venue },
     { text: 'Sponsors', ...LINKS.sponsors },
   ],
@@ -13,8 +14,9 @@ const MENUS = {
     { text: 'Impressum & Data Privacy', ...LINKS.privacy },
   ],
   mobile: [
-    { text: 'Tickets', ...LINKS.tickets },
+    { text: 'Speakers', ...LINKS.keynoteSpeakers },
     { text: 'Schedule', ...LINKS.schedule },
+    { text: 'Tickets', ...LINKS.tickets },
     { text: 'Venue & Accommodation', ...LINKS.venue },
     { text: 'Sponsors', ...LINKS.sponsors },
   ],
