@@ -79,7 +79,7 @@ const Tickets = () => {
                                  onClick={() => handleImageClick('cb938518-75cf-4ead-9262-f24323657e4c')} />
           </div>
           <div className="pl-10 flex flex-col content-between gap-1 h-full">
-            <strong className="text-sm text-start bg-pink text-white py-1 px-2 rounded-full inline-block self-start">Room 2, 09:00-12:00</strong>
+            <strong className="text-sm text-start bg-pink text-white py-1 px-2 rounded-full inline-block self-start">Room 8, 09:00-12:00</strong>
             <div className="flex flex-col gap-1 items-start text-start justify-center h-full">
               <h4 className="text-purple font-bold text-balance cursor-pointer" onClick={() => handleSessionClick('701299')}>Detecting unexpected behavior and intrusions with Falco
                 + Atomic Red Team</h4>
@@ -107,7 +107,7 @@ const Tickets = () => {
           <SpeakerProfileImage speakers={workshopSpeakers} speakerId="a2665c2b-13c9-4337-9c78-db85bca70e60" className="absolute -left-8 max-h-16 rounded-full cursor-pointer"
                                onClick={() => handleImageClick('a2665c2b-13c9-4337-9c78-db85bca70e60')} />
           <div className="pl-10 flex flex-col content-between gap-1 h-full">
-            <strong className="text-sm text-start bg-pink text-white py-1 px-2 rounded-full inline-block self-start">Room 2, 13:00-16:00</strong>
+            <strong className="text-sm text-start bg-pink text-white py-1 px-2 rounded-full inline-block self-start">Room 8, 13:00-16:00</strong>
             <div className="flex flex-col gap-1 items-start text-start justify-center h-full">
               <h4 className="text-purple font-bold text-balance cursor-pointer" onClick={() => handleSessionClick('697243')}>Kubernetes Performance Tuning</h4>
               <strong>Ant(on) Weiss</strong>
