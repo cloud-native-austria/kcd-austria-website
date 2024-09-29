@@ -13,6 +13,11 @@ export default {
     description: 'All speakers of the 2024 KCD Austria'
   },
 
+  live: {
+    title: 'Live - KCD Austria',
+    description: 'Everything you need to know at the event',
+  },
+
   page404: {
     title: 'Page Not Found — KCD Austria',
     description: 'Sorry, we couldn’t find the page you’re looking for',
