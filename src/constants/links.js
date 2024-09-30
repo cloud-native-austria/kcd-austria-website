@@ -7,6 +7,11 @@ export default {
   home: {
     to: '/',
   },
+
+  live: {
+    to: '/live',
+  },
+
   tickets: {
     to: `/#${getAnchor('Tickets')}`,
     id: `/#${getAnchor('Tickets')}`,

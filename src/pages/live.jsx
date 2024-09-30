@@ -1,9 +1,9 @@
+import React from 'react';
+
+import Button from '../components/shared/button';
 import Layout from '../components/shared/layout';
 import SEO from '../components/shared/seo';
-
-import React from 'react';
 import SEO_DATA from '../constants/seo-data';
-import Button from '../components/shared/button';
 import { scheduleUrl } from '../constants/sessionize-app';
 
 const LivePage = () => (
