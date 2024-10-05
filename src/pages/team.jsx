@@ -1,10 +1,11 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 
-import Team from 'components/pages/team/team';
 import Layout from 'components/shared/layout';
 import SEO from 'components/shared/seo';
 import SEO_DATA from 'constants/seo-data';
+
+import Team from '../components/pages/team/team';
 
 const TeamPage = () => (
   <Layout>
