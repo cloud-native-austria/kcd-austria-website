@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Person from '../../../shared/person';
+import Person from '../../shared/person';
 
 import Anais from './images/AnaisUrlichs.png';
 import Andi from './images/AndreasGrabner.jpeg';
