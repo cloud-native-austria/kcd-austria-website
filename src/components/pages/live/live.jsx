@@ -3,14 +3,14 @@ import React from 'react';
 import { scheduleUrl } from '../../../constants/sessionize-app';
 import Button from '../../shared/button';
 
+import CurrentSessions from './current-sessions/current-sessions';
+
 const Live = () => (
-    <section className="safe-paddings container-md text-center grid grid-cols-2 sm:grid-cols-1 gap-4">
+    <section className="safe-paddings container-md text-center grid grid-cols-2 sm:grid-cols-1 gap-4 mb-4">
       <div className="col-span-2 sm:col-span-1 bg-gray-12 rounded-md p-2 flex-col inline-block justify-center">
-        <h2>Schedule</h2>
-        <p className="text-balance">
-          See the full schedule and mark talks you're interested in so you won't miss a session.
-        </p>
-        <Button to={scheduleUrl} className="my-6 mt-2">Full schedule</Button>
+        <h2 className="text-xl">Current and upcoming sessions</h2>
+        <CurrentSessions />
+        <Button to={scheduleUrl} className="my-4">See the full schedule</Button>
       </div>
 
       <div className="bg-gray-12 rounded-md p-2 flex-col inline-block justify-center">
