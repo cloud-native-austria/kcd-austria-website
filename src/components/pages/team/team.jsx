@@ -4,6 +4,7 @@ import Person from '../../shared/person';
 
 import Anais from './images/AnaisUrlichs.png';
 import Andi from './images/AndreasGrabner.jpeg';
+import Andreas from './images/AndreasTaranetz.jpg'
 import Constanze from './images/ConstanzeRoedig.png';
 import Daniel from './images/DanielDrack.jpeg';
 import David from './images/DavidLeitner.jpeg';
@@ -25,6 +26,11 @@ const teamMembers = [
     name: 'Andreas Grabner',
     tagLine: 'CNCF Ambassador, CNCF Keptn & Dynatrace DevRel',
     picture: Andi,
+  },
+  {
+    name: 'Andreas Taranetz',
+    tagLine: 'Senior Software Engineer, Dynatrace',
+    picture: Andreas,
   },
   {
     name: 'Constanze Roedig',
