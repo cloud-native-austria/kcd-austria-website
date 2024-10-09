@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-export const loadAllSessions = () => {
+export const loadAllSessions = (refreshInterval) => {
   const [sessions, setSessions] = useState([]);
 
   useEffect(() => {
@@ -15,6 +15,15 @@ export const loadAllSessions = () => {
     };
 
     fetchSpeakers();
+
+    let interval;
+    if(refreshInterval) {
+      interval = setInterval(fetchSpeakers, refreshInterval);
+    }
+
+    return () => {
+      if (interval) clearInterval(interval);
+    }
   }, []);
 
   return sessions;

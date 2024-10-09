@@ -12,7 +12,7 @@ const LivePage = () => (
         <h1>KCD 2024 - Live</h1>
         <p>Everything you need to know at the event.</p>
       </header>
-      <Live/>
+      <Live />
     </Layout>
   )
 ;
