@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 
 import { getSessionUrl } from '../../../../constants/sessionize-app';
 import { loadAllSessions } from '../../../shared/data/loadAllSessions';
+import { set } from 'lodash';
 
 const getSessionTime = (session) => {
   const start = new Date(session.startsAt);
@@ -46,7 +47,11 @@ const SessionsForRoom = ({ roomName, allSessions }) => {
 };
 
 const CurrentSessions = () => {
-  const allSessions = loadAllSessions();
+  const allSessions = loadAllSessions(30000);
+
+  if (!allSessions) {
+    return <p>Loading...</p>
+  }
   const currentDate = new Date().getDate();
   const isAnythingScheduledToday = allSessions.flatMap(group => group.sessions)
     .some(session =>  new Date(session.startsAt).getDate() === currentDate);
