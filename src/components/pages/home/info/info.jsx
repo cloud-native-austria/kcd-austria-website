@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Info = () => (
-  <section className="safe-paddings container-md">
+  <section className="safe-paddings container-md mt-16">
     <p>
       <strong>Kubernetes Community Days</strong> (KCDs) are global, community-organized events that
       gather adopters and technologists from open source and cloud native communities, supported by
