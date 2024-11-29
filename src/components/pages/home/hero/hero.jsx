@@ -4,7 +4,7 @@ import illustration from './images/hero-illustration.webp';
 import Button from '../../../shared/button';
 
 const Hero = () => (
-  <section className="safe-paddings overflow-hidden mt-12 mb-16">
+  <section className="safe-paddings overflow-hidden mt-12">
     <div className="container w-full flex flex-row items-center md:flex-col">
       <div className="flex flex-col flex-grow flex-shrink w-1/2 md:w-full pr-[48px] md:pr-0">
         <span className="w-fit rounded-full bg-pink px-4 py-2 text-sm font-bold leading-none text-white">
@@ -21,14 +21,6 @@ const Hero = () => (
           IT professionals interested in cloud native technologies. This community event is
           supported by the CNCF.
         </p>
-        <div className="mt-10 flex container flex-row gap-4 w-full sm:flex-col p-0">
-          <Button onClick={(e) => {
-            e.preventDefault();
-            document.getElementById('tickets').scrollIntoView({ behavior: 'smooth' });
-          }}>
-            Get your Tickets
-          </Button>
-        </div>
       </div>
       <img
         className="flex-grow flex-shrink w-1/2 object-contain md:mt-12 md:w-3/4 md:max-w-[400px] pl-[48px] md:pl-0"

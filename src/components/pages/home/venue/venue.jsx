@@ -1,36 +1,9 @@
 import React from 'react';
 import venue from './images/venue.jpg';
 
-const hotels = [
-  {
-    name: 'Holiday Inn Vienna South',
-    link: 'https://maps.app.goo.gl/YDNq1o6Pnkxvnnso7',
-    discount: '10%/fixed rate',
-    description: 'Send <a href="/files/HolidayInn-Abrufkontingent-KCD.pdf" target="_blank">this form</a> filled with your data and signed to <a href="mailto:reservation@hi-wien.at">reservation@hi-wien.at</a>. This promo <strong>KCD Austria</strong> is bookable until 9th September.',
-  },
-  {
-    name: 'PhilsPlace',
-    link: 'https://maps.app.goo.gl/cUm3q1aNao7tLugH6',
-    discount: '10%',
-    description: 'Send an e-mail to <a href="mailto:hello@phils.place">hello@phils.place</a> and include the travel dates and the number of people, together with the promo code <strong>KCDXPHILS</strong> to get 10% off from the October rate.',
-  },
-  {
-    name: 'Austria Trend Hotel Bosei',
-    link: 'https://maps.app.goo.gl/i6P8KLejR5ivLhcC9',
-    discount: '15%',
-    description: 'Use the discount code <strong>KCD-Austria2024</strong> on the <a href="https://www.austria-trend.at/de/hotels/bosei" target="_blank">hotel reservation page</a> to get 15% off the regular price.',
-  },
-  {
-    name: 'Plaza Premium Wien',
-    link: 'https://maps.app.goo.gl/dKyjsWhDFVetzT1x6',
-    discount: '12%',
-    description: 'Use the discount code <strong>PLAZAESCAPE</strong> on the <a href="https://plazahotels.de/hotel-wienerberg/" target="_blank">hotel reservation page</a> to get 12% off the regular price.',
-  },
-];
-
 const Venue = () => (
   <section className="safe-paddings container-md">
-    <h1 id="venue-and-accommodation">Venue & Accommodation</h1>
+    <h1 id="venue-and-accommodation">Venue</h1>
     <div className="flex flex-row items-center justify-center sm:flex-col text-center">
       <div className="w-1/2 text-center flex flex-col items-center justify-center sm:w-full">
         <img src={venue} alt="KCD Austria Venue" className="w-[350px] h-[350px] object-cover rounded-md" />
@@ -56,25 +29,6 @@ const Venue = () => (
         <br /><br />
         <strong>We can't wait to see you there!</strong>
       </p>
-    </div>
-
-    <h3>Accommodation</h3>
-
-    <p className="text-center">
-      Need a place to stay? We've got you covered. There are many hotels near the venue, and we've arranged special
-      rates at selected hotels for KCD Austria attendees:
-    </p>
-
-    <div className="flex flex-row flex-wrap justify-around md:flex-col mt-4 gap-y-2">
-      {hotels.map((hotel) => (
-        <div
-          className="w-[32%] md:w-full bg-gray-12 rounded-md p-4 flex-col inline-block justify-center">
-          <strong className="text-sm text-start bg-pink text-white py-1 px-2 rounded-full inline-block self-start">{hotel.discount}</strong>
-          <div><a href={hotel.link} target="_blank" className="p-0 m-0 my-2 block text-xl text-center">{hotel.name}</a>
-          </div>
-          <p className="text-center my-2" dangerouslySetInnerHTML={{ __html: hotel.description }} />
-        </div>
-      ))}
     </div>
   </section>
 );
