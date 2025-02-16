@@ -1,8 +1,8 @@
 {
-  "name": "kcd-austria",
-  "description": "Kubernetes Community Days Austria Website",
+  "name": "cnd-austria",
+  "description": "Cloud Native Days Austria Website",
   "version": "0.1.0",
-  "author": "Katharina Sick",
+  "author": "Katharina Sick, Andreas Taranetz",
   "engines": {
     "node": ">=18.0.0",
     "npm": ">=8.6.0"
