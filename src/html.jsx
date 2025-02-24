@@ -3,7 +3,10 @@ import React from 'react';
 
 const fontsBasePath = '/fonts';
 
-const fontsPaths = ['/plus-jakarta-sans/plus-jakarta-sans-600.woff2'];
+const fontsPaths = [
+  '/plus-jakarta-sans/plus-jakarta-sans-600.woff2',
+  '/fira-code/FiraCode-Bold.woff2',
+];
 
 const HTML = ({
   htmlAttributes,
