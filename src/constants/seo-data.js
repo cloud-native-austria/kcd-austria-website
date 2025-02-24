@@ -10,7 +10,7 @@ export default {
 
   speakers: {
     title: 'Speakers — KCD Austria',
-    description: 'All speakers of the 2024 KCD Austria'
+    description: 'All speakers of the 2024 KCD Austria',
   },
 
   live: {
@@ -21,5 +21,5 @@ export default {
   page404: {
     title: 'Page Not Found — CND Austria',
     description: 'Sorry, we couldn’t find the page you’re looking for',
-  }
+  },
 };

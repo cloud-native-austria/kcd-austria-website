@@ -23,8 +23,8 @@ export default {
     homeTo: '/',
   },
   venue: {
-    to: `/#${getAnchor('Venue & Accommodation')}`,
-    id: `/#${getAnchor('Venue & Accommodation')}`,
+    to: `/#${getAnchor('Venue')}`,
+    id: `/#${getAnchor('Venue')}`,
     homeTo: '/',
   },
   sponsors: {
@@ -35,6 +35,7 @@ export default {
   keynoteSpeakers: {
     to: `/#${getAnchor('speakers')}`,
     id: `/#${getAnchor('speakers')}`,
+    homeTo: '/',
   },
 
   speakers: {
@@ -56,7 +57,7 @@ export default {
 
   // Social-links
   linkedin: {
-    to: 'https://www.linkedin.com/company/kcdaustria/',
+    to: 'https://www.linkedin.com/company/cndaustria/',
     target: '_blank',
   },
   googlemaps: {

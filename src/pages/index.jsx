@@ -14,7 +14,7 @@ const HomePage = () => (
   <Layout homepage>
     <Hero />
     <WrapUp />
-    <Info />
+    {/* <Info /> */}
     <Speakers keynote />
     <Venue />
     <Sponsors />
