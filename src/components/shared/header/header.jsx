@@ -33,7 +33,7 @@ const Header = ({ isMobileMenuOpen, onBurgerClick, additionalClassName, homepage
           <Logo className="h-12" />
         </Link>
 
-        <nav>
+        {/* <nav>
           <ul className="flex md:hidden">
             {MENUS.header.map(({ text, to, homeTo }, index) => (
               <li key={index}>
@@ -49,13 +49,13 @@ const Header = ({ isMobileMenuOpen, onBurgerClick, additionalClassName, homepage
               </li>
             ))}
           </ul>
-        </nav>
+        </nav> */}
 
-        <Burger
+        {/* <Burger
           className={clsx('z-50 hidden md:block', isMobileMenuOpen && 'text-black dark:text-black')}
           isToggled={isMobileMenuOpen}
           onClick={onBurgerClick}
-        />
+        /> */}
       </div>
     </header>
   );

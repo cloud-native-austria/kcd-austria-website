@@ -9,7 +9,7 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: ['Plus Jakarta Sans', 'Plus Jakarta Sans Fallback', ...defaultTheme.fontFamily.sans],
-      mono: ['', ...defaultTheme.fontFamily.mono],
+      mono: ['Fira Code', ...defaultTheme.fontFamily.mono],
     },
     fontSize: {
       xs: ['12px'],
@@ -31,12 +31,12 @@ module.exports = {
       transparent: colors.transparent,
       black: '#000000',
       white: '#ffffff',
-      pink: '#E30282',
-      green: '#0DD8B5',
       purple: '#531CB3',
+      pink: '#E30282',
       orange: '#FFBC42',
 
-      blue: { 1: '#3333FF', 2: '#2929FF' },
+      green: '#0DD8B5',
+      blue: '#0086FF',
       primary: {
         1: '#262F59',
         2: 'rgba(38, 47, 89, 0.1)',

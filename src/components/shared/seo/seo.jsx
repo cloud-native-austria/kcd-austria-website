@@ -2,8 +2,8 @@
 import { useStaticQuery, graphql } from 'gatsby';
 import React from 'react';
 
-const defaultTitle = 'KCD Austria';
-const defaultDescription = 'Experience the power of community at the KCD Austria!';
+const defaultTitle = 'Cloud Native Days Austria';
+const defaultDescription = 'Experience the power of community at the Cloud Native Days Austria!';
 
 const SEO = ({ title, description, pathname }) => {
   const {

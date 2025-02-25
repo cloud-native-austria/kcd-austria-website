@@ -9,7 +9,7 @@ const LivePage = () => (
     <Layout>
       <header className="text-center safe-paddings pb-4">
 
-        <h1>KCD 2024 - Live</h1>
+        <h1>CNDA 2025 - Live</h1>
         <p>Everything you need to know at the event.</p>
       </header>
       <Live />

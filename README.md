@@ -1,4 +1,6 @@
-# KCD Austria Website
+# CNDA (Cloud Native Days Austria) Website
+
+    formerly known as KCD (Kubernetes Community Days) Austria
 
 Website for the Kubernetes Community Days Austria available at [kcdaustria.at](https://kcdaustria.at).
 
