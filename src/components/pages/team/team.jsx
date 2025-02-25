@@ -2,26 +2,16 @@ import React from 'react';
 
 import Person from '../../shared/person';
 
-import Anais from './images/AnaisUrlichs.png';
 import Andi from './images/AndreasGrabner.jpeg';
-import Andreas from './images/AndreasTaranetz.jpg'
-import Constanze from './images/ConstanzeRoedig.png';
+import Andreas from './images/AndreasTaranetz.jpg';
 import Daniel from './images/DanielDrack.jpeg';
-import David from './images/DavidLeitner.jpeg';
 import Erik from './images/ErikAuer.jpg';
 import Henrik from './images/HenrikRexed.png';
 import Johannes from './images/JohannesGrumboeck.jpeg';
-import Juliano from './images/JulianoCosta.jpeg';
 import Kathi from './images/KatharinaSick.jpg';
-import Thomas from './images/ThomasSchuetz.png';
-import Tom from './images/ThomasStagl.jpeg';
+import Sandra from './images/SandraSchadenbauer.jpeg';
 
 const teamMembers = [
-  {
-    name: 'Anais Urlichs',
-    tagLine: 'Open Source Developer Advocate, Aqua Security',
-    picture: Anais,
-  },
   {
     name: 'Andreas Grabner',
     tagLine: 'CNCF Ambassador, CNCF Keptn & Dynatrace DevRel',
@@ -33,19 +23,9 @@ const teamMembers = [
     picture: Andreas,
   },
   {
-    name: 'Constanze Roedig',
-    tagLine: 'Head of the Austrian Open Cloud Community',
-    picture: Constanze,
-  },
-  {
     name: 'Daniel Drack',
     tagLine: 'I host the community chapter in Graz, Austria',
     picture: Daniel,
-  },
-  {
-    name: 'David Leitner',
-    tagLine: 'Coding Architect',
-    picture: David,
   },
   {
     name: 'Erik Auer',
@@ -62,23 +42,13 @@ const teamMembers = [
     picture: Johannes,
   },
   {
-    name: 'Juliano Costa',
-    tagLine: 'Developer Advocate | CNCF Ambassador',
-    picture: Juliano,
-  },
-  {
     name: 'Katharina Sick',
     tagLine: 'Senior Software Engineer, Dynatrace',
     picture: Kathi,
   },
   {
-    name: 'Thomas Schuetz',
-    tagLine: 'CNCF Ambassador | Co-Chair @ TAG App-Delivery',
-    picture: Thomas,
-  },
-  {
-    name: 'Thomas Stagl',
-    picture: Tom,
+    name: 'Sandra Schadenbauer',
+    picture: Sandra,
   },
 ];
 
