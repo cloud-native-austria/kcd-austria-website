@@ -49,7 +49,7 @@ const Tickets = () => {
       <p>
         Gain full access to the main conference on October 9th and 10th.
       </p>
-      <Button className="my-6" to="https://tickets.kcdaustria.at" target="_blank">
+      <Button className="my-6" to="https://tickets.cloudnativedays.at" target="_blank">
         Get your conference pass
       </Button>
       <h3>Workshop Pass Addon</h3>
@@ -116,7 +116,7 @@ const Tickets = () => {
           </div>
         </div>
       </div>
-      <Button className="my-6" to="https://tickets.kcdaustria.at" target="_blank">
+      <Button className="my-6" to="https://tickets.cloudnativedays.at" target="_blank">
         Get your workshop pass addon
       </Button>
       <SpeakerModal isOpen={isSpeakerModalOpen} speaker={selectedSpeaker} onClose={closeSpeakerModal} />

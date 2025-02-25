@@ -19,11 +19,11 @@ const Live = () => (
           <tbody>
           <tr>
             <td className="text-right">SSID</td>
-            <td>KCDAustria</td>
+            <td>tbd</td>
           </tr>
           <tr>
             <td className="text-right">Password</td>
-            <td>welcome2vienna</td>
+            <td>tbd</td>
           </tr>
           </tbody>
         </table>

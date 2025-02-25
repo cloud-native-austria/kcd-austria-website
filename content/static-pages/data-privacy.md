@@ -17,7 +17,7 @@ Steuernummer: 09 419/9486
 **ZVR-Zahl**: 1230260391<br/>
 **Austellung**: Landespolizeidirektion Wien, Referat Vereins-, Versammlungs- und Medienrechtsangelegenheiten<br/>
 **Vereinssitz**: 1230 Wien<br/>
-**E-Mail**: thomas.schuetz@cloud-native.at
+**E-Mail**: organizers@cloud-native.at
 
 **Anwendbare Rechtsvorschriften**: [ris.bka.gv.at](https://www.ris.bka.gv.at)<br/>
 **Aufsichtsbehörde**: Bezirkshauptmannschaft Wien<br/>
@@ -114,7 +114,7 @@ Kirchenplatz 6, Stiege 3, Tür 2<br/>
 1230 Wien<br/>
 Vertretungsberechtigt: Thomas Schuetz<br/>
 E-Mail: [ingress@cloud-native.at](mailto:ingress@cloud-native.at)<br/>
-Impressum: [https://kcdaustria.at/imprint-and-data-privacy/](https://kcdaustria.at/imprint-and-data-privacy/)
+Impressum: [https://cloudnativedays.at/imprint-and-data-privacy/](https://cloudnativedays.at/imprint-and-data-privacy/)
 
 ### Speicherdauer
 

@@ -2,7 +2,7 @@
 
     formerly known as KCD (Kubernetes Community Days) Austria
 
-Website for the Kubernetes Community Days Austria available at [kcdaustria.at](https://kcdaustria.at).
+Website for the Cloud Native Days Austria available at [cloudnativedays.at](https://cloudnativedays.at).
 
 > Forked from [KCDMunich/website](https://github.com/KCDMunich/website) -> Thank you! :)
 

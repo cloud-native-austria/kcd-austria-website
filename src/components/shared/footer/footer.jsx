@@ -59,10 +59,10 @@ const Footer = () => {
         </nav>
         <div>
           <a
-            href="mailto:organizers@kcdaustria.at"
+            href="mailto:organizers@cloud-native.at"
             className="text-center w-full text-sm hover:scale-105"
           >
-            organizers@kcdaustria.at
+            organizers@cloud-native.at
           </a>
 
           <div className="flex flex-row gap-4 justify-center items-center">
