@@ -38,7 +38,7 @@ const teamMembers = [
   },
   {
     name: 'Johannes Grumböck',
-    tagLine: 'Cloud Architect @ Red Bull Media House',
+    tagLine: 'Cloud Architect, Red Bull Media House',
     picture: Johannes,
   },
   {
@@ -49,6 +49,7 @@ const teamMembers = [
   {
     name: 'Sandra Schadenbauer',
     picture: Sandra,
+    tagLine: 'Lecturer, FH JOANNEUM'
   },
 ];
 
