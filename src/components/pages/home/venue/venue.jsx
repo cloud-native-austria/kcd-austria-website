@@ -11,13 +11,9 @@ const Venue = () => (
           alt="CDN Austria Venue"
           className="object-contain rounded-md max-h-[300px] md:max-h-[350px]"
         />
-        <a href="https://maps.app.goo.gl/Q22METdvy3f1GFfx8" target="_blank" className="font-normal">
-          <strong>Cineplexx Wienerberg</strong>
-          <p>
-            Wienerbergstraße 11
-            <br />
-            1100 Wien
-          </p>
+        <a href="https://maps.app.goo.gl/Q22METdvy3f1GFfx8" target="_blank">
+          <strong className="hover:text-pink">Cineplexx Wienerberg</strong>
+          <p className="font-normal hover:text-pink">Wienerbergstraße 11, 1100 Wien</p>
         </a>
       </div>
       <p className="self-start w-1/2 md:w-full sm:text-start">

@@ -89,6 +89,10 @@ module.exports = {
       backgroundImage: {
         'gradient-45': 'linear-gradient(45deg, var(--tw-gradient-stops))',
       },
+      backgroundSize: {
+        overflow: '300% 100%',
+        normal: '100% 100%',
+      },
     },
   },
   plugins: [require('tailwindcss-safe-area')],
