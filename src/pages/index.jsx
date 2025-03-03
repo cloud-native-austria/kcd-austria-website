@@ -5,6 +5,7 @@ import Info from 'components/pages/home/info';
 import Layout from 'components/shared/layout';
 import SEO from 'components/shared/seo';
 
+import Cfp from '../components/pages/home/cfp';
 import Sponsors from '../components/pages/home/sponsors';
 import Venue from '../components/pages/home/venue';
 import WrapUp from '../components/pages/home/wrap-up';
@@ -13,6 +14,7 @@ import Speakers from '../components/pages/speakers/speakers';
 const HomePage = () => (
   <Layout homepage>
     <Hero />
+    <Cfp />
     <WrapUp />
     {/* <Info /> */}
     {/* <Speakers keynote /> */}

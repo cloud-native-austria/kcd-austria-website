@@ -10,12 +10,12 @@ export const WrapUp = () => (
       links:
     </p>
     <div className="flex flex-wrap gap-4 items-center justify-center">
-      <a href="https://www.youtube.com/playlist?list=PLtLBTEzR4SqXICiZEESHcElCqQYgjmfYR">
-        <Button>Watch all the talks</Button>
-      </a>
-      <a href="https://hansberndlevents.myportfolio.com/kcd-austria">
-        <Button>See all the pictures</Button>
-      </a>
+      <Button to="https://www.youtube.com/playlist?list=PLtLBTEzR4SqXICiZEESHcElCqQYgjmfYR">
+        Watch all the talks
+      </Button>
+      <Button to="https://hansberndlevents.myportfolio.com/kcd-austria">
+        See all the pictures
+      </Button>
     </div>
   </section>
 );
