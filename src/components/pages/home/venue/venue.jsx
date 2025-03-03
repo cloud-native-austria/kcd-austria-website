@@ -3,32 +3,24 @@ import venue from './images/venue.jpg';
 
 const Venue = () => (
   <section className="safe-paddings container-md">
-    <h1 id="venue">Venue</h1>
-    <div className="flex flex-row items-center justify-center sm:flex-col text-center">
-      <div className="w-1/2 text-center flex flex-col items-center justify-center sm:w-full">
+    <h2 id="venue">Venue</h2>
+    <div className="flex flex-row gap-8 items-center justify-items-start sm:flex-col text-center">
+      <div className="text-center flex-grow-1 flex flex-col gap-4 items-center justify-center w-1/2 md:w-full">
         <img
           src={venue}
           alt="CDN Austria Venue"
-          className="w-[350px] h-[350px] object-cover rounded-md"
+          className="object-contain rounded-md max-h-[300px] md:max-h-[350px]"
         />
-        <a
-          href="https://maps.app.goo.gl/Q22METdvy3f1GFfx8"
-          target="_blank"
-          className="block mt-4 mb-2 text-xl"
-        >
-          Cineplexx Wienerberg
-        </a>
-        <a
-          href="https://maps.app.goo.gl/Q22METdvy3f1GFfx8"
-          target="_blank"
-          className="text-gray-7 font-normal"
-        >
-          Wienerbergstraße 11
-          <br />
-          1100 Wien
+        <a href="https://maps.app.goo.gl/Q22METdvy3f1GFfx8" target="_blank" className="font-normal">
+          <strong>Cineplexx Wienerberg</strong>
+          <p>
+            Wienerbergstraße 11
+            <br />
+            1100 Wien
+          </p>
         </a>
       </div>
-      <p className="w-1/2 sm:w-full sm:mt-4">
+      <p className="self-start w-1/2 md:w-full sm:text-start">
         Cloud Native Days Austria will be held at{' '}
         <a href="https://maps.app.goo.gl/Q22METdvy3f1GFfx8" target="_blank">
           Cineplexx Wienerberg

@@ -14,7 +14,7 @@ const Info = () => (
       related to Cloud Native.
     </p>
 
-    <h1>What to expect?</h1>
+    <h2>What to expect?</h2>
     <div className="flex flex-row md:flex-col">
       <div className="w-1/3 md:w-full text-center px-4">
         <h2 className="text-pink">35+</h2>

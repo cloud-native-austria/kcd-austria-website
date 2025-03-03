@@ -49,14 +49,14 @@ const teamMembers = [
   {
     name: 'Sandra Schadenbauer',
     picture: Sandra,
-    tagLine: 'Lecturer, FH JOANNEUM'
+    tagLine: 'Lecturer, FH JOANNEUM',
   },
 ];
 
 const Team = () => (
   <section className="safe-paddings container-md">
     <h1>Team</h1>
-    <div className="flex flex-row flex-wrap gap-10 justify-center my-16">
+    <div className="flex flex-row flex-wrap gap-10 justify-center">
       {teamMembers.map(({ name, tagLine, picture }, index) => (
         <Person name={name} tagLine={tagLine} picture={picture} key={index} />
       ))}
