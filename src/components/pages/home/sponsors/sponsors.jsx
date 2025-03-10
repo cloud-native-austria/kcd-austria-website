@@ -81,12 +81,41 @@ const Sponsors = () => (
     <h2 id="sponsors">Sponsors</h2>
 
     <p>
-      We couldn't do KCD Austria without amazing sponsors! Big thanks to our Gold, Silver and
-      Community sponsors, and Media Partners. Their support means even more great talks, workshops,
-      and networking for our community.
+      Join us in making Cloud Native Days Austria a memorable and impactful event for all attendees. To explore
+      sponsorship opportunities, please don't hesitate to get in touch with us today. Your support
+      will help us create an unforgettable experience for the community while enhancing your brand's
+      visibility and recognition. Contact us at{' '}
+      <a
+        href="mailto:organizers@cloudnativedays.at"
+        className="text-purple"
+        target="_blank"
+        rel="noreferrer"
+      >
+        {' '}
+        organizers@cloudnativedays.at{' '}
+      </a>
     </p>
+    <div className="mt-6 mb-12 flex flex-row justify-center gap-4 sm:flex-col">
+      <a
+        href="/files/CND-Austria-2025-sponsor-prospectus.pdf"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <Button>Information Slides</Button>
+      </a>
+      <a
+        href="/files/CND-Austria-2025-sponsor-agreement-form.pdf"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <Button>Agreement Form</Button>
+      </a>
+      <a href="mailto:organizers@cloudnativedays.at" target="_blank" rel="noreferrer" aria-label="Get in touch">
+        <Button>Get in touch</Button>
+      </a>
+    </div>
 
-    {sponsors.map(({ title, sponsors }, index) => {
+    {/* {sponsors.map(({ title, sponsors }, index) => {
       // Randomly sort the sponsors array
       const sortedSponsors = [...sponsors].sort(() => Math.random() - 0.5);
 
@@ -114,7 +143,7 @@ const Sponsors = () => (
           </div>
         </div>
       );
-    })}
+    })} */}
   </section>
 );
 export default Sponsors;
