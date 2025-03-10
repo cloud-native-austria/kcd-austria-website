@@ -15,11 +15,11 @@ const HomePage = () => (
   <Layout homepage>
     <Hero />
     <Cfp />
+    <Sponsors />
     <WrapUp />
     {/* <Info /> */}
     {/* <Speakers keynote /> */}
     <Venue />
-    {/* <Sponsors /> */}
   </Layout>
 );
 
