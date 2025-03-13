@@ -35,6 +35,7 @@ const teamMembers = [
   {
     name: 'Henrik Rexed',
     picture: Henrik,
+    tagLine: 'Cloud Native Advocate, CNCF Ambassador, Dynatrace'
   },
   {
     name: 'Johannes Grumböck',
