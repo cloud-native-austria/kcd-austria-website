@@ -7,6 +7,7 @@ import SEO from 'components/shared/seo';
 
 import Cfp from '../components/pages/home/cfp';
 import Sponsors from '../components/pages/home/sponsors';
+import SponsorsList from '../components/pages/home/sponsors-list';
 import Venue from '../components/pages/home/venue';
 import WrapUp from '../components/pages/home/wrap-up';
 import Speakers from '../components/pages/speakers/speakers';
@@ -20,6 +21,7 @@ const HomePage = () => (
     {/* <Info /> */}
     {/* <Speakers keynote /> */}
     <Venue />
+    <SponsorsList/>
   </Layout>
 );
 
