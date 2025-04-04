@@ -39,22 +39,22 @@ const sponsors = [
   //       { url: 'https://www.splunk.com/', logo: Splunk },
   //     ],
   //   },
-  //   {
-  //     title: 'Silver',
-  //     sponsors: [
-  //       { url: 'https://rbinternational.com', logo: RaiffeisenBankInternational },
-  //       { url: 'https://www.fullstacks.eu', logo: FullStacks },
-  //       { url: 'https://www.cloudwerkstatt.com', logo: CloudWerkstatt },
-  //       { url: 'https://www.nextlayer.at', logo: NextLayer },
-  //       { url: 'https://www.nts.eu', logo: NTS },
-  //       { url: 'https://www.tigera.io', logo: Tigera },
-  //       { url: 'https://www.veeam.com', logo: Veeam },
-  //       { url: 'https://www.suse.com', logo: Suse },
-  //       { url: 'https://nordcloud.com', logo: Nordcloud },
-  //       { url: 'https://www.cloudbees.com', logo: Cloudbees },
-  //       { url: 'https://www.post.at/', logo: Post },
-  //     ],
-  //   },
+  {
+    title: 'Silver',
+    sponsors: [
+      // { url: 'https://rbinternational.com', logo: RaiffeisenBankInternational },
+      //       { url: 'https://www.fullstacks.eu', logo: FullStacks },
+      //       { url: 'https://www.cloudwerkstatt.com', logo: CloudWerkstatt },
+      { url: 'https://www.nextlayer.at', logo: NextLayer },
+      // { url: 'https://www.nts.eu', logo: NTS },
+      // { url: 'https://www.tigera.io', logo: Tigera },
+      // { url: 'https://www.veeam.com', logo: Veeam },
+      // { url: 'https://www.suse.com', logo: Suse },
+      // { url: 'https://nordcloud.com', logo: Nordcloud },
+      //       { url: 'https://www.cloudbees.com', logo: Cloudbees },
+      //       { url: 'https://www.post.at/', logo: Post },
+    ],
+  },
   //   {
   //     title: 'Community',
   //     sponsors: [
@@ -78,13 +78,15 @@ const sponsors = [
 
 const SponsorsList = () => (
   <section className="safe-paddings container-md text-center">
+    <h2>Our Sponsors</h2>
+    <p>Without them this event wouldn&apos;t be possible</p>
     {sponsors.map(({ title, sponsors }, index) => {
       // Randomly sort the sponsors array
       const sortedSponsors = [...sponsors].sort(() => Math.random() - 0.5);
 
       return (
         <div key={index}>
-          <h2>{title}</h2>
+          <h3>{title}</h3>
           <div className="flex flex-row flex-wrap w-full justify-center mb-12 sm:gap-4">
             {sortedSponsors.map(({ logo, url, background }, index) => (
               <a
