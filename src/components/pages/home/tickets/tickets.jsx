@@ -11,7 +11,7 @@ const Tickets = () => (
       The conference pass gives you access to all talks on both days and the evening event.
     </p>
     <p className="text-center">Get your tickets now and join us for Cloud Native Days Austria 2025!</p>
-    <Button to="https://pretix.eu/kcdaustria/2025/" target="_blank">
+    <Button to="https://tickets.cloudnativedays.at" target="_blank">
       Get your conference pass
     </Button>
   </section>
