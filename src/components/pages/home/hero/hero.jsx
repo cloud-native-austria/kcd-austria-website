@@ -15,7 +15,7 @@ const Hero = () => (
         <p>
           Join us for two days filled with exciting talks and networking opportunities. Cloud Native
           Days Austria is aimed at developers, platform people, and other IT professionals
-          interested in cloud native technologies. This community event is supported by the CNCF.
+          interested in cloud native technologies.
         </p>
       </div>
       <img
