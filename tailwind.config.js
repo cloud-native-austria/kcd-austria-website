@@ -93,6 +93,28 @@ module.exports = {
         overflow: '300% 100%',
         normal: '100% 100%',
       },
+      animation: {
+        slide1: 'slide1 10s ease-in-out infinite',
+        slide2: 'slide2 10s ease-in-out infinite',
+        slide3: 'slide3 10s ease-in-out infinite',
+      },
+      keyframes: {
+        slide1: {
+          '0%, 23%, 100%': { transform: 'translateX(0)', opacity: 1 },
+          '33%': { transform: 'translateX(500px)', opacity: 0 },
+          '90%': { transform: 'translateX(-500px)', opacity: 0 },
+        },
+        slide2: {
+          '0%, 23%': { transform: 'translateX(-500px)', opacity: 0 },
+          '33%, 56%': { transform: 'translateX(0)', opacity: 1 },
+          '66%, 100%': { transform: 'translateX(500px)', opacity: 0 },
+        },
+        slide3: {
+          '0%, 56%': { transform: 'translateX(-500px)', opacity: 0 },
+          '66%, 90%': { transform: 'translateX(0)', opacity: 1 },
+          '100%': { transform: 'translateX(500px)', opacity: 0 },
+        },
+      },
     },
   },
   plugins: [require('tailwindcss-safe-area')],

@@ -1,11 +1,12 @@
 import React from 'react';
 
-import illustration from './images/hero-illustration.webp';
-import Button from '../../../shared/button';
+import pia from './images/pia.webp';
+import hands from './images/hands.webp';
+import vendors from './images/vendors.webp';
 
 const Hero = () => (
-  <section className="safe-paddings overflow-hidden">
-    <div className="container w-full flex flex-row md:flex-col gap-8 md:gap-0 justify-between items-center">
+  <section className="safe-paddings">
+    <div className="container w-full flex flex-row md:flex-col gap-8 justify-between items-center">
       <div className="flex flex-col gap-8 max-w-[580px] md:max-w-full">
         <h1 className="text-start mb-0">Cloud Native Days Austria</h1>
         <p>
@@ -18,12 +19,31 @@ const Hero = () => (
           interested in cloud native technologies.
         </p>
       </div>
-      <img
-        className="max-w-[450px] object-contain"
-        src={illustration}
-        loading="eager"
-        alt="Illustration"
-      />
+      <a
+        className="max-w-[500px] w-full h-[450px] relative overflow-hidden rounded"
+        href="https://hansberndlevents.myportfolio.com/kcd-austria"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          className="w-full h-full object-cover absolute animate-slide1"
+          src={pia}
+          loading="eager"
+          alt="A speaker giving a talk to an audience in a cinema"
+        />
+        <img
+          className="w-full h-full object-cover absolute animate-slide2"
+          src={hands}
+          loading="eager"
+          alt="The audience of a talk answering the speaker's question by a show of hands"
+        />
+        <img
+          className="w-full h-full object-cover absolute animate-slide3"
+          src={vendors}
+          loading="eager"
+          alt="Vendors showcasing their products at individual booths"
+        />
+      </a>
     </div>
   </section>
 );
