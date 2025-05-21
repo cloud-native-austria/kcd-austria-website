@@ -29,26 +29,26 @@ import Cloudbees from './logos/Cloudbees.png';
 import Post from './logos/Post.png';
 
 const sponsors = [
-  //   {
-  //     title: 'Gold',
-  //     sponsors: [
-  //       { url: 'https://www.whizus.com', logo: Whizus },
-  //       { url: 'https://www.cloudpilots.com', logo: Cloudpilots },
-  //       { url: 'https://www.exoscale.com/', logo: Exoscale },
-  //       { url: 'https://www.dynatrace.com/', logo: Dynatrace },
-  //       { url: 'https://www.splunk.com/', logo: Splunk },
-  //     ],
-  //   },
+  {
+    title: 'Gold',
+    sponsors: [
+      { url: 'https://www.whizus.com', logo: Whizus },
+      //       { url: 'https://www.cloudpilots.com', logo: Cloudpilots },
+      { url: 'https://www.exoscale.com/', logo: Exoscale },
+      { url: 'https://www.dynatrace.com/', logo: Dynatrace },
+      //       { url: 'https://www.splunk.com/', logo: Splunk },
+    ],
+  },
   {
     title: 'Silver',
     sponsors: [
-      // { url: 'https://rbinternational.com', logo: RaiffeisenBankInternational },
+      { url: 'https://rbinternational.com', logo: RaiffeisenBankInternational },
       //       { url: 'https://www.fullstacks.eu', logo: FullStacks },
-      //       { url: 'https://www.cloudwerkstatt.com', logo: CloudWerkstatt },
+      { url: 'https://www.cloudwerkstatt.com', logo: CloudWerkstatt },
       { url: 'https://www.nextlayer.at', logo: NextLayer },
       // { url: 'https://www.nts.eu', logo: NTS },
       // { url: 'https://www.tigera.io', logo: Tigera },
-      // { url: 'https://www.veeam.com', logo: Veeam },
+      { url: 'https://www.veeam.com', logo: Veeam },
       // { url: 'https://www.suse.com', logo: Suse },
       // { url: 'https://nordcloud.com', logo: Nordcloud },
       //       { url: 'https://www.cloudbees.com', logo: Cloudbees },
@@ -87,7 +87,7 @@ const SponsorsList = () => (
       return (
         <div key={index}>
           <h3>{title}</h3>
-          <div className="flex flex-row flex-wrap w-full justify-center mb-12 sm:gap-4">
+          <div className="flex flex-row flex-wrap w-full justify-center mb-12 gap-4">
             {sortedSponsors.map(({ logo, url, background }, index) => (
               <a
                 key={index}
