@@ -24,7 +24,7 @@ const Header = ({ isMobileMenuOpen, onBurgerClick, additionalClassName, homepage
     <header
       className={clsx(
         'safe-paddings transition-200 z-10 transition-colors',
-        isMobileMenuOpen ? 'bg-white bg-opacity-100' : 'bg-white bg-opacity-10',
+        isMobileMenuOpen ? 'bg-gradient bg-opacity-100' : 'bg-w bg-opacity-70',
         additionalClassName
       )}
     >
@@ -33,12 +33,12 @@ const Header = ({ isMobileMenuOpen, onBurgerClick, additionalClassName, homepage
           <Logo className="h-12" />
         </Link>
 
-        {/* <nav>
+        <nav>
           <ul className="flex md:hidden">
             {MENUS.header.map(({ text, to, homeTo }, index) => (
               <li key={index}>
                 {homepage && homeTo ? (
-                  <Button to={homeTo} theme="link" onClick={handleAnchorClick} size="sm">
+                  <Button to={homeTo} theme="link" size="sm" onClick={handleAnchorClick}>
                     {text}
                   </Button>
                 ) : (
@@ -49,13 +49,13 @@ const Header = ({ isMobileMenuOpen, onBurgerClick, additionalClassName, homepage
               </li>
             ))}
           </ul>
-        </nav> */}
+        </nav>
 
-        {/* <Burger
+        <Burger
           className={clsx('z-50 hidden md:block', isMobileMenuOpen && 'text-black dark:text-black')}
           isToggled={isMobileMenuOpen}
           onClick={onBurgerClick}
-        /> */}
+        />
       </div>
     </header>
   );

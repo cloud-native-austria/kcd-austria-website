@@ -1,7 +1,7 @@
 import React from 'react';
 
-import pia from './images/pia.webp';
 import hands from './images/hands.webp';
+import pia from './images/pia.webp';
 import vendors from './images/vendors.webp';
 
 const Hero = () => (
