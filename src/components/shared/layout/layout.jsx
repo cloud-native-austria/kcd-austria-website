@@ -20,7 +20,7 @@ const Layout = ({ children, headerClassnames, homepage }) => {
       />
       <main className="flex flex-col gap-16 mb-4">{children}</main>
       <Footer />
-      {/* <MobileMenu isOpen={isMobileMenuOpen} onButtonClick={handleHeaderBurgerClick} /> */}
+      <MobileMenu isOpen={isMobileMenuOpen} onButtonClick={handleHeaderBurgerClick} />
     </div>
   );
 };

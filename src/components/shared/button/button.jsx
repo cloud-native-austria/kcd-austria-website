@@ -5,7 +5,7 @@ import React from 'react';
 import Link from 'components/shared/link';
 
 const styles = {
-  base: 'inline-flex items-center justify-center !leading-none text-center whitespace-nowrap rounded transition-all duration-200 outline-none font-bold text-[18px] hover:text-white',
+  base: 'inline-flex items-center justify-center !leading-none text-center whitespace-nowrap rounded transition-all duration-200 outline-none font-bold text-[18px]',
   size: {
     md: 'h-10 px-6 py-[18px]',
     sm: 'h-8 px-4 py-[8px] text-sm',
@@ -13,7 +13,8 @@ const styles = {
   },
   theme: {
     primary:
-      'bg-gradient-45 from-purple via-pink to-orange text-white hover:scale-105 rounded-full bg-overflow hover:bg-normal',
+      'bg-gradient-45 from-purple via-pink to-orange text-white hover:scale-105 rounded-full bg-overflow hover:bg-normal hover:text-white',
+    link: 'hover:text-pink',
   },
 };
 
