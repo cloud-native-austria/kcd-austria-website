@@ -17,7 +17,7 @@ const HomePage = () => (
   <Layout homepage>
     <Hero />
     <Tickets />
-    <Cfp />
+    {/* <Cfp /> */}
     <Sponsors />
     <WrapUp />
     {/* <Info /> */}
