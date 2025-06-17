@@ -18,7 +18,7 @@ const Layout = ({ children, headerClassnames, homepage }) => {
         homepage={homepage}
         onBurgerClick={handleHeaderBurgerClick}
       />
-      <main className="flex flex-col gap-16 mb-4">{children}</main>
+      <main className="flex flex-col gap-12 mb-4">{children}</main>
       <Footer />
       <MobileMenu isOpen={isMobileMenuOpen} onButtonClick={handleHeaderBurgerClick} />
     </div>
