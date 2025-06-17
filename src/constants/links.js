@@ -37,9 +37,11 @@ export default {
     id: `/#${getAnchor('speakers')}`,
     homeTo: '/',
   },
-
   speakers: {
     to: '/speakers',
+  },
+  volunteer: {
+    to: `/volunteer`,
   },
 
   // Footer
