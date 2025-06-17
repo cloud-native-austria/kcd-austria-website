@@ -49,7 +49,7 @@ const Faq = () => (
           <>
             Please fill out this{' '}
             <Link
-              to="https://forms.gle/R9peGcYxQVEchjQ49"
+              to="https://forms.gle/NbdBbutVWg1nh4y87"
               target="_blank"
               ariaLabel="form for volunteer registration"
             >
