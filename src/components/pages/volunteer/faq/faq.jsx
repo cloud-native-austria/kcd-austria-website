@@ -18,10 +18,12 @@ const Faq = () => (
         answer={
           <>
             Every volunteer who helps out will get
-            <li>Free entrance to both conference days</li>
-            <li>Volunteer shirt</li>
-            <li>Free drinks and food</li>
-            <li>Free parking ticket</li>
+            <ul className="list-disc list-inside">
+              <li>Free entrance to both conference days</li>
+              <li>Volunteer shirt</li>
+              <li>Free drinks and food</li>
+              <li>Free parking ticket</li>
+            </ul>
           </>
         }
       />
@@ -36,10 +38,12 @@ const Faq = () => (
         answer={
           <>
             You can volunteer in the following areas:
-            <li>Set up/Take down</li>
-            <li>Registration</li>
-            <li>Stage/Host assistant</li>
-            <li>Miscellaneous</li>
+            <ul className="list-disc list-inside">
+              <li>Set up/Take down</li>
+              <li>Registration</li>
+              <li>Stage/Host assistant</li>
+              <li>Miscellaneous</li>
+            </ul>
           </>
         }
       />

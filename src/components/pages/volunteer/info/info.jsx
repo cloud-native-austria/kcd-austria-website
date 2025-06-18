@@ -22,11 +22,13 @@ const Info = () => (
       scenes and help out. As a thank you for your support, we also offer you some benefits.
       <br />
       <br />
-      Every volunteer who helps out will gets
-      <li>free entrance to both conference days</li>
-      <li>Volunteer shirt</li>
-      <li>free drinks and food</li>
-      <li>free parking ticket</li>
+      Every volunteer who helps out will get
+      <ul className="list-disc list-inside">
+        <li>free entrance to both conference days</li>
+        <li>Volunteer shirt</li>
+        <li>free drinks and food</li>
+        <li>free parking ticket</li>
+      </ul>
       <br />
       If you are interested in volunteering, please fill out this{' '}
       <Link
