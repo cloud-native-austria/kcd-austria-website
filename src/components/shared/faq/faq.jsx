@@ -22,7 +22,7 @@ const FAQ = ({ question, answer }) => (
       </h3>
     </summary>
 
-    <div className="text-start">{answer}</div>
+    <div className="text-start pl-6">{answer}</div>
   </details>
 );
 
