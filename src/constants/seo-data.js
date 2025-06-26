@@ -9,8 +9,8 @@ export default {
   },
 
   speakers: {
-    title: 'Speakers — KCD Austria',
-    description: 'All speakers of the 2024 KCD Austria',
+    title: 'Speakers — CND Austria',
+    description: 'All speakers of the 2024 CND Austria',
   },
 
   live: {
@@ -19,8 +19,8 @@ export default {
   },
 
   volunteer: {
-    title: 'Volunteer — KCD Austria',
-    description: 'Volunteer at the KCD Austria and help make the event a success!',
+    title: 'Volunteer — CND Austria',
+    description: 'Volunteer at the CND Austria and help make the event a success!',
   },
 
   page404: {
