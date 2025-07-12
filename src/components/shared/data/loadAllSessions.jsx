@@ -6,7 +6,7 @@ export const loadAllSessions = (refreshInterval) => {
   useEffect(() => {
     const fetchSpeakers = async () => {
       try {
-        const response = await fetch('https://sessionize.com/api/v2/dxat2zkl/view/Sessions');
+        const response = await fetch('https://sessionize.com/api/v2/fetamiym/view/Sessions');
         const data = await response.json();
         setSessions(data);
       } catch (error) {
@@ -17,13 +17,13 @@ export const loadAllSessions = (refreshInterval) => {
     fetchSpeakers();
 
     let interval;
-    if(refreshInterval) {
+    if (refreshInterval) {
       interval = setInterval(fetchSpeakers, refreshInterval);
     }
 
     return () => {
       if (interval) clearInterval(interval);
-    }
+    };
   }, []);
 
   return sessions;
