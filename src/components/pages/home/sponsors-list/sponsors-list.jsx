@@ -27,6 +27,7 @@ import Nordcloud from './logos/Nordcloud.png';
 import Posedio from './logos/Posedio.svg';
 import Cloudbees from './logos/Cloudbees.png';
 import Post from './logos/Post.png';
+import Frequentis from './logos/Frequentis.png';
 
 const sponsors = [
   {
@@ -43,7 +44,7 @@ const sponsors = [
     title: 'Silver',
     sponsors: [
       { url: 'https://rbinternational.com', logo: RaiffeisenBankInternational },
-      //       { url: 'https://www.fullstacks.eu', logo: FullStacks },
+      { url: 'https://www.fullstacks.eu', logo: FullStacks },
       { url: 'https://www.cloudwerkstatt.com', logo: CloudWerkstatt },
       { url: 'https://www.nextlayer.at', logo: NextLayer },
       // { url: 'https://www.nts.eu', logo: NTS },
@@ -55,13 +56,14 @@ const sponsors = [
       //       { url: 'https://www.post.at/', logo: Post },
     ],
   },
-  //   {
-  //     title: 'Community',
-  //     sponsors: [
-  //       { url: 'https://www.porscheinformatik.com', logo: PorscheInformatik },
-  //       { url: 'https://www.posedio.com', logo: Posedio },
-  //     ],
-  //   },
+  {
+    title: 'Community',
+    sponsors: [
+      //      { url: 'https://www.porscheinformatik.com', logo: PorscheInformatik },
+      { url: 'https://www.posedio.com', logo: Posedio },
+      { url: 'https://www.frequentis.com', logo: Frequentis },
+    ],
+  },
   {
     title: 'Media Partners',
     sponsors: [
