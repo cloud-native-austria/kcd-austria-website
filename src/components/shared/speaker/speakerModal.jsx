@@ -160,7 +160,7 @@ const SpeakerModal = ({ isOpen, onClose, speaker }) => {
         <p style={{ whiteSpace: 'pre-wrap' }} className="text-start text-balance">
           {speaker.bio}
         </p>
-        {speaker.sessions && (
+        {/* {speaker.sessions && (
           <>
             <h3 className="text-left">{speaker.sessions.size > 1 ? 'Sessions' : 'Session'}</h3>
             <ul>
@@ -171,7 +171,7 @@ const SpeakerModal = ({ isOpen, onClose, speaker }) => {
               ))}
             </ul>
           </>
-        )}
+        )} */}
       </div>
     </div>
   );

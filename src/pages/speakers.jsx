@@ -7,10 +7,12 @@ import Speakers from 'components/pages/speakers/speakers';
 
 const SpeakersPage = () => (
   <Layout>
-    <Speakers/>
+    <Speakers />
   </Layout>
 );
 
 export default SpeakersPage;
 
-export const Head = ({ location: { pathname } }) => <SEO {...SEO_DATA.speakers } pathname={pathname} />;
+export const Head = ({ location: { pathname } }) => (
+  <SEO {...SEO_DATA.speakers} pathname={pathname} />
+);

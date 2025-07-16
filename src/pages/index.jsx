@@ -21,7 +21,7 @@ const HomePage = () => (
     <Sponsors />
     <WrapUp />
     {/* <Info /> */}
-    {/* <Speakers keynote /> */}
+    <Speakers keynote />
     <Venue />
     <SponsorsList />
   </Layout>
