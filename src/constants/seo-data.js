@@ -10,7 +10,7 @@ export default {
 
   speakers: {
     title: 'Speakers — CND Austria',
-    description: 'All speakers of the 2024 CND Austria',
+    description: 'All speakers of the 2025 CND Austria',
   },
 
   live: {
