@@ -18,11 +18,11 @@ const HomePage = () => (
     <Hero />
     <Tickets />
     {/* <Cfp /> */}
-    <Sponsors />
-    <WrapUp />
+    {/* <Sponsors /> */}
     {/* <Info /> */}
     <Speakers keynote />
     <Venue />
+    <WrapUp />
     <SponsorsList />
   </Layout>
 );
