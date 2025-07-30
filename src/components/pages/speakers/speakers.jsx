@@ -34,11 +34,11 @@ const Speakers = ({ keynote }) => {
           </a>
         ))}
       </div>
-      {/* {keynote && (
+      {keynote && (
         <Button className="my-6" to={links.speakers.to}>
           See all our speakers
         </Button>
-      )} */}
+      )}
       <SpeakerModal
         isOpen={!!selectedSpeaker}
         speaker={selectedSpeaker}
