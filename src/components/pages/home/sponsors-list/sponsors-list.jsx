@@ -37,7 +37,7 @@ const sponsors = [
       //       { url: 'https://www.cloudpilots.com', logo: Cloudpilots },
       { url: 'https://www.exoscale.com/', logo: Exoscale },
       { url: 'https://www.dynatrace.com/', logo: Dynatrace },
-      //       { url: 'https://www.splunk.com/', logo: Splunk },
+      { url: 'https://www.splunk.com/', logo: Splunk },
     ],
   },
   {
@@ -53,7 +53,7 @@ const sponsors = [
       // { url: 'https://www.suse.com', logo: Suse },
       // { url: 'https://nordcloud.com', logo: Nordcloud },
       //       { url: 'https://www.cloudbees.com', logo: Cloudbees },
-      //       { url: 'https://www.post.at/', logo: Post },
+      { url: 'https://www.post.at/', logo: Post },
     ],
   },
   {
