@@ -5,7 +5,6 @@ const MENUS = {
     { text: 'Tickets', ...LINKS.tickets },
     { text: 'Venue', ...LINKS.venue },
     { text: 'Sponsors', ...LINKS.sponsors },
-    { text: 'Volunteer', ...LINKS.volunteer },
   ],
   footer: [
     { text: 'Code of Conduct', ...LINKS.conduct },
