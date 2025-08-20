@@ -11,7 +11,7 @@ const Schedule = () => (
     <Button to={scheduleUrl} className="my-6">
       Full schedule
     </Button>
-    <div className="flex flex-row flex-wrap justify-around md:flex-col mt-4 gap-y-2">
+    {/* <div className="flex flex-row flex-wrap justify-around md:flex-col mt-4 gap-y-2">
       <div className="w-[32%] md:w-full bg-gray-12 rounded-md p-4 flex-col inline-block justify-center content-start">
         <strong className="text-sm bg-orange py-1 px-2 rounded-full">Tuesday, October 8</strong>
         <h2 className="p-0 m-0 mt-4 mb-2 text-2xl">Workshops</h2>
@@ -39,7 +39,7 @@ const Schedule = () => (
           Wrap up with even more insights, deeper conversations, and lasting connections.
         </p>
       </div>
-    </div>
+    </div> */}
   </section>
 );
 
