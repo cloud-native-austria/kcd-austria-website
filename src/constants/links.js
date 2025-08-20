@@ -1,4 +1,5 @@
 import slugify from 'slugify';
+import { scheduleUrl } from './sessionize-app';
 
 const getAnchor = (str) => slugify(str).toLocaleLowerCase();
 
@@ -11,15 +12,13 @@ export default {
   live: {
     to: '/live',
   },
+  schedule: {
+    to: scheduleUrl,
+  },
 
   tickets: {
     to: `/#${getAnchor('Tickets')}`,
     id: `/#${getAnchor('Tickets')}`,
-    homeTo: '/',
-  },
-  schedule: {
-    to: `/#${getAnchor('schedule')}`,
-    id: `/#${getAnchor('schedule')}`,
     homeTo: '/',
   },
   venue: {
