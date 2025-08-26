@@ -5,12 +5,10 @@ require('dotenv').config();
 module.exports = {
   flags: { DEV_SSR: process.env.GATSBY_DEV_SSR || false },
   siteMetadata: {
-    siteTitle: 'Pixel Point Gatsby Tailwind Starter',
-    siteDescription: 'Site Description',
+    siteTitle: 'Cloud Native Days Austria',
     siteImage: '/images/social-preview.png',
     siteLanguage: 'en',
     siteUrl: process.env.GATSBY_DEFAULT_SITE_URL || 'http://localhost:8000',
-    authorName: 'Pixel Point',
   },
   plugins: [
     {
@@ -42,8 +40,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'Cloud Native Days Austria',
+        short_name: 'CNDA',
         start_url: '/',
         display: 'minimal-ui',
         icon: 'src/images/favicon.png',
