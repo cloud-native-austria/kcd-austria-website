@@ -2,11 +2,10 @@ import React from 'react';
 
 import Button from 'components/shared/button';
 
+import AWS from './logos/aws.png';
 import Whizus from './logos/Whizus.png';
 import AwsCommunityDays from './logos/AwsCommunityDays.png';
-import Cncf from './logos/Cncf.png';
-import KcdMunich from './logos/KcdMunich.svg';
-import KcdZurich from './logos/KcdZurich.png';
+import cncf from './logos/cncf.png';
 import MeetingDestinationVienna from './logos/MeetingDestinationVienna.svg';
 import KubeCareers from './logos/KubeCareers.svg';
 import KubeEvents from './logos/KubeEvents.svg';
@@ -28,6 +27,7 @@ import Posedio from './logos/Posedio.svg';
 import Cloudbees from './logos/Cloudbees.png';
 import Post from './logos/Post.png';
 import Frequentis from './logos/Frequentis.png';
+import squer from './logos/squer.png';
 
 const sponsors = [
   {
@@ -54,12 +54,15 @@ const sponsors = [
       // { url: 'https://nordcloud.com', logo: Nordcloud },
       //       { url: 'https://www.cloudbees.com', logo: Cloudbees },
       { url: 'https://www.post.at/', logo: Post },
+      { url: 'https://www.squer.io/', logo: squer}
     ],
   },
   {
     title: 'Community',
     sponsors: [
       //      { url: 'https://www.porscheinformatik.com', logo: PorscheInformatik },
+      { url: 'https://aws.amazon.com/', logo: AWS },
+      { url: 'https://www.cncf.io', logo: cncf },
       { url: 'https://www.posedio.com', logo: Posedio },
       { url: 'https://www.frequentis.com', logo: Frequentis },
     ],
