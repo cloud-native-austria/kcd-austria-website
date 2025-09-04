@@ -4,7 +4,7 @@ import Button from 'components/shared/button';
 
 const Sponsors = () => (
   <section className="safe-paddings container-md text-center">
-    <h2 id="sponsors">Call for Sponsors</h2>
+    <h2 id="call-for-sponsors">Call for Sponsors</h2>
 
     <p>
       Join us in making Cloud Native Days Austria a memorable and impactful event for all attendees. To explore
