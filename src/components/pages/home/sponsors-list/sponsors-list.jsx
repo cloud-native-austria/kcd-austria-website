@@ -80,7 +80,7 @@ const sponsors = [
 
 const SponsorsList = () => (
   <section className="safe-paddings container-md text-center">
-    <h2>Our Sponsors</h2>
+    <h2 id="sponsors">Our Sponsors</h2>
     <p>Without them this event wouldn&apos;t be possible</p>
     {sponsors.map(({ title, sponsors }, index) => {
       // Randomly sort the sponsors array
