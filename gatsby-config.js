@@ -6,9 +6,11 @@ module.exports = {
   flags: { DEV_SSR: process.env.GATSBY_DEV_SSR || false },
   siteMetadata: {
     siteTitle: 'Cloud Native Days Austria',
+    siteDescription: 'Homepage of Cloud Native Days Austria, a community-driven cloud-native conference',
     siteImage: '/images/social-preview.png',
     siteLanguage: 'en',
     siteUrl: process.env.GATSBY_DEFAULT_SITE_URL || 'http://localhost:8000',
+    authorName: 'Cloud Native Austria',
   },
   plugins: [
     {
