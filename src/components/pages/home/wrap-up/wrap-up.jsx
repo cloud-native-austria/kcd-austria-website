@@ -14,9 +14,9 @@ export const WrapUp = () => (
       <Button to="https://www.youtube.com/playlist?list=PLtLBTEzR4SqXICiZEESHcElCqQYgjmfYR">
         Watch all the talks
       </Button>
-      {/*<Button to="https://hansberndlevents.myportfolio.com/kcd-austria">
+      {/* <Button to="https://hansberndlevents.myportfolio.com/kcd-austria">
         See all the pictures
-      </Button>*/}
+      </Button> */}
     </div>
   </section>
 );
