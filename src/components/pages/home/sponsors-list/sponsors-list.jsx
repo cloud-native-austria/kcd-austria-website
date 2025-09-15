@@ -17,7 +17,7 @@ import NextLayer from './logos/NextLayer.webp';
 import NTS from './logos/NTS.png';
 import Exoscale from './logos/Exoscale.png';
 import Dynatrace from './logos/Dynatrace.png';
-import Splunk from './logos/Splunk.png';
+import Splunk from './logos/splunk.jpg';
 import Tigera from './logos/Tigera.png';
 import PorscheInformatik from './logos/PorscheInformatik.png';
 import Veeam from './logos/Veeam.png';
