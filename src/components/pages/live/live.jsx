@@ -21,11 +21,11 @@ const Live = () => (
         <tbody>
           <tr>
             <td className="text-right">SSID</td>
-            <td>tbd</td>
+            <td>CNDA-conference</td>
           </tr>
           <tr>
             <td className="text-right">Password</td>
-            <td>tbd</td>
+            <td>stay-cloud-native!</td>
           </tr>
         </tbody>
       </table>
