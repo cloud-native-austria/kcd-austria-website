@@ -60,8 +60,6 @@ const CurrentSessions = () => {
 
   return (
     <div className="grid grid-cols-2 xs:grid-cols-1 gap-4">
-      <SessionsForRoom roomName={'Room 1'} allSessions={allSessions} />
-      <SessionsForRoom roomName={'Room 8'} allSessions={allSessions} />
       <SessionsForRoom roomName={'Room 4'} allSessions={allSessions} />
       <SessionsForRoom roomName={'Room 6'} allSessions={allSessions} />
     </div>
