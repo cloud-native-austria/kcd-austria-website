@@ -19,12 +19,7 @@ const Hero = () => (
           interested in cloud native technologies.
         </p>
       </div>
-      <a
-        className="max-w-[500px] w-full h-[450px] relative overflow-hidden rounded"
-        href="https://hansberndlevents.myportfolio.com/kcd-austria"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <div className="max-w-[500px] w-full h-[450px] relative overflow-hidden rounded">
         <img
           className="w-full h-full object-cover absolute animate-slide1"
           src={pia}
@@ -43,7 +38,7 @@ const Hero = () => (
           loading="eager"
           alt="Vendors showcasing their products at individual booths"
         />
-      </a>
+      </div>
     </div>
   </section>
 );
