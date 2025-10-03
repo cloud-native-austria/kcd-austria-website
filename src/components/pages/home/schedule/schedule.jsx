@@ -6,11 +6,17 @@ const Schedule = () => (
   <section className="safe-paddings container-md text-center">
     <h2 id="schedule">Schedule</h2>
     <p className="text-balance">
-      See the full schedule and mark talks you're interested in so you won't miss a session.
+      Check out what is happening right now, or see the full schedule and mark talks you're
+      interested in so you won't miss a session.
     </p>
-    <Button to={scheduleUrl} className="my-6">
-      Full schedule
-    </Button>
+    <div className="flex flex-row justify-center gap-4 flex-wrap">
+      <Button to="/live" className="my-6">
+        Live now
+      </Button>
+      <Button to={scheduleUrl} className="my-6">
+        Full schedule
+      </Button>
+    </div>
     {/* <div className="flex flex-row flex-wrap justify-around md:flex-col mt-4 gap-y-2">
       <div className="w-[32%] md:w-full bg-gray-12 rounded-md p-4 flex-col inline-block justify-center content-start">
         <strong className="text-sm bg-orange py-1 px-2 rounded-full">Tuesday, October 8</strong>
