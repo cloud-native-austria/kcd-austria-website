@@ -3,7 +3,7 @@ import LINKS from 'constants/links.js';
 const MENUS = {
   header: [
     { text: 'Live', ...LINKS.live },
-    { text: 'Tickets', ...LINKS.tickets },
+    // { text: 'Tickets', ...LINKS.tickets },
     { text: 'Schedule', ...LINKS.schedule },
     { text: 'Speakers', ...LINKS.speakers },
     { text: 'Venue', ...LINKS.venue },
