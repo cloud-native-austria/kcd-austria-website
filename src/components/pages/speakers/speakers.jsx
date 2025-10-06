@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 
+import Button from 'components/shared/button/button';
+import links from '../../../constants/links';
 import { loadAllSpeakers, loadKeynoteSpeakers } from '../../shared/data/loadAllSpeakers';
 import Person from '../../shared/person';
 import SpeakerModal from '../../shared/speaker/speakerModal';
-import Button from 'components/shared/button/button';
-import links from '../../../constants/links';
 
 const Speakers = ({ keynote }) => {
   const [selectedSpeaker, setSelectedSpeaker] = useState(null);

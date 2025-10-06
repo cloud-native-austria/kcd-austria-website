@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-export const loadAllSessions = (refreshInterval) => {
+export const useLoadAllSessions = (refreshInterval) => {
   const [sessions, setSessions] = useState([]);
 
   useEffect(() => {
@@ -8,7 +8,7 @@ export const loadAllSessions = (refreshInterval) => {
       try {
         const response = await fetch('https://sessionize.com/api/v2/fetamiym/view/Sessions');
         const data = await response.json();
-        setSessions(data);
+        setSessions(data.at(0).sessions ?? []);
       } catch (error) {
         console.error('Error fetching sessions:', error);
       }
@@ -24,7 +24,7 @@ export const loadAllSessions = (refreshInterval) => {
     return () => {
       if (interval) clearInterval(interval);
     };
-  }, []);
+  }, [refreshInterval]);
 
   return sessions;
 };
