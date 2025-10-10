@@ -1,5 +1,5 @@
 import React from 'react';
-import venue from './images/venue.jpg';
+import venue from './images/venue.webp';
 
 const Venue = () => (
   <section className="safe-paddings container-md">
@@ -17,7 +17,7 @@ const Venue = () => (
         </a>
       </div>
       <p className="self-start w-1/2 md:w-full sm:text-start">
-        Cloud Native Days Austria will be held at{' '}
+        Cloud Native Days Austria are held at{' '}
         <a href="https://maps.app.goo.gl/Q22METdvy3f1GFfx8" target="_blank">
           Cineplexx Wienerberg
         </a>
