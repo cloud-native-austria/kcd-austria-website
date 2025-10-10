@@ -26,7 +26,7 @@ const Speakers = ({ keynote }) => {
 
   return (
     <section className="safe-paddings container-lg text-center">
-      <h1 id="speakers">{keynote && 'Keynote '}Speakers</h1>
+      <h1 id="speakers">{keynote && 'Keynote '}Speakers of 2025</h1>
       <div className="flex flex-row flex-wrap gap-10 justify-center">
         {speakers.map(({ profilePicture, fullName, tagLine, id }) => (
           <a onClick={() => handleSpeakerClick(id)}>

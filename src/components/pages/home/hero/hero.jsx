@@ -1,8 +1,11 @@
 import React from 'react';
 
+import Button from '../../../shared/button';
+
+import adrianajosh from './images/adriana-josh.webp';
+import crowd from './images/crowd.webp';
 import hands from './images/hands.webp';
-import pia from './images/pia.webp';
-import vendors from './images/vendors.webp';
+import orgs from './images/orgs.webp';
 
 const Hero = () => (
   <section className="safe-paddings">
@@ -10,21 +13,24 @@ const Hero = () => (
       <div className="flex flex-col gap-8 max-w-[580px] md:max-w-full">
         <h1 className="text-start mb-0">Cloud Native Days Austria</h1>
         <p>
-          On <strong className="text-pink">October 7th and 8th, 2025</strong> the Cloud Native
-          community will gather again in Vienna, Austria.
+          <strong className="text-pink">It's a wrap!</strong>
+          <br />
+          On October 7th and 8th, 2025 the Cloud Native
+          community gathered in Vienna, Austria.
+          We spent two days filled with exciting talks, networking and partying.
         </p>
         <p>
-          Join us for two days filled with exciting talks and networking opportunities. Cloud Native
-          Days Austria is aimed at developers, platform people, and other IT professionals
+          Cloud Native Days Austria is a conference aimed at developers, platform people, and other IT professionals
           interested in cloud native technologies.
         </p>
+        <Button to="https://www.picdrop.com/giselataschner-carl-hohenbalken/bzmm9YBJW2" className="m-auto">See all photos of the event</Button>
       </div>
-      <div className="max-w-[500px] w-full h-[450px] relative overflow-hidden rounded">
+      <a href="https://www.picdrop.com/giselataschner-carl-hohenbalken/bzmm9YBJW2" target="_blank" className="max-w-[500px] w-full h-[450px] relative overflow-hidden rounded" rel="noreferrer">
         <img
           className="w-full h-full object-cover absolute animate-slide1"
-          src={pia}
+          src={adrianajosh}
           loading="eager"
-          alt="A speaker giving a talk to an audience in a cinema"
+          alt="Two speakers giving a talk"
         />
         <img
           className="w-full h-full object-cover absolute animate-slide2"
@@ -34,11 +40,17 @@ const Hero = () => (
         />
         <img
           className="w-full h-full object-cover absolute animate-slide3"
-          src={vendors}
+          src={orgs}
           loading="eager"
-          alt="Vendors showcasing their products at individual booths"
+          alt="The organizers of the event"
         />
-      </div>
+        <img
+          className="w-full h-full object-cover absolute animate-slide4"
+          src={crowd}
+          loading="eager"
+          alt="Attendees of the event networking and talking to each other"
+        />
+      </a>
     </div>
   </section>
 );

@@ -17,11 +17,11 @@ import Speakers from '../components/pages/speakers/speakers';
 const HomePage = () => (
   <Layout homepage>
     <Hero />
-    <Schedule />
+    {/* <Schedule /> */}
     {/* <Cfp /> */}
     {/* <Info /> */}
     <Speakers keynote />
-    <Tickets />
+    {/* <Tickets /> */}
     <Venue />
     <WrapUp />
     {/* <Sponsors /> */}
