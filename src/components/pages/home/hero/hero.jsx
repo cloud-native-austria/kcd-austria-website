@@ -10,22 +10,33 @@ import orgs from './images/orgs.webp';
 const Hero = () => (
   <section className="safe-paddings">
     <div className="container w-full flex flex-row md:flex-col gap-8 justify-between items-center">
-      <div className="flex flex-col gap-8 max-w-[580px] md:max-w-full">
+      <div className="flex flex-col gap-4 max-w-[580px] md:max-w-full">
         <h1 className="text-start mb-0">Cloud Native Days Austria</h1>
         <p>
           <strong className="text-pink">It's a wrap!</strong>
           <br />
-          On October 7th and 8th, 2025 the Cloud Native
-          community gathered in Vienna, Austria.
-          We spent two days filled with exciting talks, networking and partying.
+          On October 7th and 8th, 2025 the Cloud Native community gathered in Vienna, Austria. We
+          spent two days filled with exciting talks, networking and partying.
         </p>
         <p>
-          Cloud Native Days Austria is a conference aimed at developers, platform people, and other IT professionals
-          interested in cloud native technologies.
+          Cloud Native Days Austria is a conference aimed at developers, platform people, and other
+          IT professionals interested in cloud native technologies.
         </p>
-        <Button to="https://www.picdrop.com/giselataschner-carl-hohenbalken/bzmm9YBJW2" className="m-auto">See all photos of the event</Button>
+        <div className="flex flex-wrap gap-4 md:justify-around">
+          <Button to="https://www.picdrop.com/giselataschner-carl-hohenbalken/bzmm9YBJW2">
+            Photos of the event
+          </Button>
+          <Button to="https://youtube.com/playlist?list=PLtLBTEzR4SqU9GwgWiaDt10-yOVIN0nzM&si=yQP0zXuHcyH01bHq">
+            Recordings of the talks
+          </Button>
+        </div>
       </div>
-      <a href="https://www.picdrop.com/giselataschner-carl-hohenbalken/bzmm9YBJW2" target="_blank" className="max-w-[500px] w-full h-[450px] relative overflow-hidden rounded" rel="noreferrer">
+      <a
+        href="https://www.picdrop.com/giselataschner-carl-hohenbalken/bzmm9YBJW2"
+        target="_blank"
+        className="max-w-[500px] w-full h-[450px] relative overflow-hidden rounded"
+        rel="noreferrer"
+      >
         <img
           className="w-full h-full object-cover absolute animate-slide1"
           src={adrianajosh}
