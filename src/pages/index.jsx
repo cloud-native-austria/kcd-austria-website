@@ -6,12 +6,12 @@ import Layout from 'components/shared/layout';
 import SEO from 'components/shared/seo';
 
 import Cfp from '../components/pages/home/cfp';
+import PreviousEvents from '../components/pages/home/previous-events';
 import Schedule from '../components/pages/home/schedule';
 import Sponsors from '../components/pages/home/sponsors';
 import SponsorsList from '../components/pages/home/sponsors-list';
 import Tickets from '../components/pages/home/tickets';
 import Venue from '../components/pages/home/venue';
-import WrapUp from '../components/pages/home/wrap-up';
 import Speakers from '../components/pages/speakers/speakers';
 
 const HomePage = () => (
@@ -20,10 +20,10 @@ const HomePage = () => (
     {/* <Schedule /> */}
     {/* <Cfp /> */}
     {/* <Info /> */}
+    <PreviousEvents />
     <Speakers keynote />
     {/* <Tickets /> */}
     <Venue />
-    <WrapUp />
     {/* <Sponsors /> */}
     <SponsorsList />
   </Layout>

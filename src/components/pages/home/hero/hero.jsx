@@ -13,23 +13,16 @@ const Hero = () => (
       <div className="flex flex-col gap-4 max-w-[580px] md:max-w-full">
         <h1 className="text-start mb-0">Cloud Native Days Austria</h1>
         <p>
-          <strong className="text-pink">It's a wrap!</strong>
+          <strong className="text-purple">Mark your calendars!</strong>
           <br />
-          On October 7th and 8th, 2025 the Cloud Native community gathered in Vienna, Austria. We
-          spent two days filled with exciting talks, networking and partying.
+          On September <strong className="text-pink">29th and 30th</strong>, 2026 the Cloud Native
+          community will gather in Vienna, Austria. We will spend two days filled with exciting
+          talks, networking and partying.
         </p>
         <p>
           Cloud Native Days Austria is a conference aimed at developers, platform people, and other
           IT professionals interested in cloud native technologies.
         </p>
-        <div className="flex flex-wrap gap-4 md:justify-around">
-          <Button to="https://www.picdrop.com/giselataschner-carl-hohenbalken/bzmm9YBJW2">
-            Photos of the event
-          </Button>
-          <Button to="https://youtube.com/playlist?list=PLtLBTEzR4SqU9GwgWiaDt10-yOVIN0nzM&si=yQP0zXuHcyH01bHq">
-            Recordings of the talks
-          </Button>
-        </div>
       </div>
       <a
         href="https://www.picdrop.com/giselataschner-carl-hohenbalken/bzmm9YBJW2"
