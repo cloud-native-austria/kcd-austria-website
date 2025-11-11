@@ -3,31 +3,31 @@ import React from 'react';
 import Button from 'components/shared/button';
 
 import AWS from './logos/aws.png';
-import Whizus from './logos/Whizus.png';
 import AwsCommunityDays from './logos/AwsCommunityDays.png';
-import cncf from './logos/cncf.png';
-import MeetingDestinationVienna from './logos/MeetingDestinationVienna.svg';
-import KubeCareers from './logos/KubeCareers.svg';
-import KubeEvents from './logos/KubeEvents.svg';
-import RaiffeisenBankInternational from './logos/RaiffeisenBankInternational.png';
-import FullStacks from './logos/FullStacks.png';
+import Cloudbees from './logos/Cloudbees.png';
 import Cloudpilots from './logos/Cloudpilots.png';
 import CloudWerkstatt from './logos/CloudWerkstatt.png';
+import cncf from './logos/cncf.png';
+import Dynatrace from './logos/Dynatrace.png';
+import Exoscale from './logos/Exoscale.png';
+import Frequentis from './logos/Frequentis.png';
+import FullStacks from './logos/FullStacks.png';
+import KubeCareers from './logos/KubeCareers.svg';
+import KubeEvents from './logos/KubeEvents.svg';
+import MeetingDestinationVienna from './logos/MeetingDestinationVienna.svg';
 import NextLayer from './logos/NextLayer.webp';
 import NTS from './logos/NTS.png';
-import Exoscale from './logos/Exoscale.png';
-import Dynatrace from './logos/Dynatrace.png';
+import RaiffeisenBankInternational from './logos/RaiffeisenBankInternational.png';
 import Splunk from './logos/splunk.jpg';
+import squer from './logos/squer.png';
+import Suse from './logos/Suse.png';
 import Tigera from './logos/Tigera.png';
 import PorscheInformatik from './logos/PorscheInformatik.png';
 import Veeam from './logos/Veeam.png';
-import Suse from './logos/Suse.png';
 import Nordcloud from './logos/Nordcloud.png';
 import Posedio from './logos/Posedio.svg';
-import Cloudbees from './logos/Cloudbees.png';
 import Post from './logos/Post.png';
-import Frequentis from './logos/Frequentis.png';
-import squer from './logos/squer.png';
+import Whizus from './logos/Whizus.png';
 
 const sponsors = [
   {
@@ -54,7 +54,7 @@ const sponsors = [
       // { url: 'https://nordcloud.com', logo: Nordcloud },
       //       { url: 'https://www.cloudbees.com', logo: Cloudbees },
       { url: 'https://www.post.at/', logo: Post },
-      { url: 'https://www.squer.io/', logo: squer}
+      { url: 'https://www.squer.io/', logo: squer },
     ],
   },
   {
@@ -83,8 +83,8 @@ const sponsors = [
 
 const SponsorsList = () => (
   <section className="safe-paddings container-md text-center">
-    <h2 id="sponsors">Our Sponsors</h2>
-    <p>Without them this event wouldn&apos;t be possible</p>
+    <h2 id="sponsors">Our Sponsors of CNDA 2025</h2>
+    <p>Without them this event wouldn&apos;t have been possible</p>
     {sponsors.map(({ title, sponsors }, index) => {
       // Randomly sort the sponsors array
       const sortedSponsors = [...sponsors].sort(() => Math.random() - 0.5);

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 import Button from 'components/shared/button/button';
+
 import links from '../../../constants/links';
 import { loadAllSpeakers, loadKeynoteSpeakers } from '../../shared/data/loadAllSpeakers';
 import Person from '../../shared/person';
@@ -26,7 +27,7 @@ const Speakers = ({ keynote }) => {
 
   return (
     <section className="safe-paddings container-lg text-center">
-      <h1 id="speakers">{keynote && 'Keynote '}Speakers of 2025</h1>
+      {keynote ? <h2 id="speakers">Keynote Speakers of 2025</h2> : <h1>Speakers of 2025</h1>}
       <div className="flex flex-row flex-wrap gap-10 justify-center">
         {speakers.map(({ profilePicture, fullName, tagLine, id }) => (
           <a onClick={() => handleSpeakerClick(id)}>
