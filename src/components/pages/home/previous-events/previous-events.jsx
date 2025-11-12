@@ -19,13 +19,13 @@ export const PreviousEvents = () => (
       </span>
     </section>
     <section>
-      <h3>Kubernetes Community Days Austria</h3>
+      <h3>Kubernetes Community Days Austria 2023 & 2024</h3>
       <span className="flex flex-wrap gap-2 justify-center">
-        <Button to="https://www.youtube.com/playlist?list=PLtLBTEzR4SqXICiZEESHcElCqQYgjmfYR">
-          Recordings of 2024
-        </Button>
         <Button to="https://youtube.com/playlist?list=PLtLBTEzR4SqWKGuUBiRm_IuRZf2--CCDt&si=7ZkAV333DhWSpHp0">
           Recordings of 2023
+        </Button>
+        <Button to="https://www.youtube.com/playlist?list=PLtLBTEzR4SqXICiZEESHcElCqQYgjmfYR">
+          Recordings of 2024
         </Button>
       </span>
     </section>
