@@ -82,7 +82,7 @@ const sponsors = [
 ];
 
 const SponsorsList = () => (
-  <section className="safe-paddings container-md text-center">
+  <section className="safe-paddings container-lg text-center">
     <h2 id="sponsors">Our Sponsors of CNDA 2025</h2>
     <p>Without them this event wouldn&apos;t have been possible</p>
     {sponsors.map(({ title, sponsors }, index) => {
@@ -103,7 +103,7 @@ const SponsorsList = () => (
               >
                 <img
                   src={logo}
-                  className="w-full h-[100px] object-contain rounded-md p-2"
+                  className="w-full h-[70px] object-contain rounded-md p-2"
                   style={{ background }}
                   loading="lazy"
                   alt="sponsor-logo"
