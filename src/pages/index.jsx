@@ -20,8 +20,8 @@ const HomePage = () => (
     {/* <Schedule /> */}
     {/* <Cfp /> */}
     {/* <Info /> */}
-    <PreviousEvents />
     <Sponsors />
+    <PreviousEvents />
     <Speakers keynote />
     {/* <Tickets /> */}
     <Venue />
