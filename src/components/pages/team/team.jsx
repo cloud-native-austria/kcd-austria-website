@@ -6,9 +6,9 @@ import Andi from './images/AndreasGrabner.jpeg';
 import Andreas from './images/AndreasTaranetz.jpg';
 import Daniel from './images/DanielDrack.jpeg';
 import Erik from './images/ErikAuer.jpg';
-import Henrik from './images/HenrikRexed.png';
 import Johannes from './images/JohannesGrumboeck.jpeg';
-import Kathi from './images/KatharinaSick.jpg';
+import Octavian from './images/OctavianHelm.jpg';
+import Philipp from './images/PhilippMaier.jpg';
 import Sandra from './images/SandraSchadenbauer.jpeg';
 
 const teamMembers = [
@@ -33,19 +33,19 @@ const teamMembers = [
     tagLine: 'CEO, WhizUs',
   },
   {
-    name: 'Henrik Rexed',
-    picture: Henrik,
-    tagLine: 'Cloud Native Advocate, CNCF Ambassador, Dynatrace'
-  },
-  {
     name: 'Johannes Grumböck',
     tagLine: 'Cloud Architect, Red Bull Media House',
     picture: Johannes,
   },
   {
-    name: 'Katharina Sick',
-    tagLine: 'Senior Software Engineer, Dynatrace',
-    picture: Kathi,
+    name: 'Octavian Helm',
+    tagLine: 'Senior Platform Engineer, BearingPoint',
+    picture: Octavian,
+  },
+  {
+    name: 'Philipp Maier',
+    tagLine: 'Senior Cloud Engineer, Dynatrace',
+    picture: Philipp,
   },
   {
     name: 'Sandra Schadenbauer',
