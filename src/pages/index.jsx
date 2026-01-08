@@ -18,7 +18,7 @@ const HomePage = () => (
   <Layout homepage>
     <Hero />
     {/* <Schedule /> */}
-    {/* <Cfp /> */}
+    <Cfp />
     {/* <Info /> */}
     <Sponsors />
     <PreviousEvents />
