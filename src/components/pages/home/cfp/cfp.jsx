@@ -9,7 +9,7 @@ const Cfp = () => (
       Now is your chance to become a speaker at the Cloud Native Days Austria.
     </p>
     <p className="text-center">
-      Send us your presentations until the <strong className="text-pink">31st of May</strong>!
+      Send us your presentations until the <strong className="text-pink">30th of April</strong>!
     </p>
     <Button to="https://sessionize.com/cloud-native-days-austria/" target="_blank">
       Submit a session
